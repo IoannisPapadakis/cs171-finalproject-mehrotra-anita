@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+
+
+<body>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+<script src="http://d3js.org/queue.v1.min.js"></script>
+<style type="text/css">
+    svg{
+        /*background: #eeeeee;*/
+    }
+
+    /*.country{
+        fill: #dffaff;
+        stroke:  steelblue;
+    }*/
+
+    .counties{
+      fill: none;
+    }
+
+    .states {
+      fill: none;
+      stroke: #fff;
+      stroke-linejoin: round;
+    }
+
+    text{
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 9pt;
+        /*font-weight: lighter;*/
+    }
+
+    .axis text {
+        font: 10px sans-serif;
+    }
+
+    .axis line,
+    .axis path {
+        fill: none;
+        stroke: #000;
+        shape-rendering: crispEdges;
+    }
+
+    .station{
+        fill:lightgrey;
+        opacity: .7;
+    }
+    .station.hasData{
+        fill:blue;
+        opacity: 1;
+    }
+    .hourLine{
+        fill:none;
+        stroke:steelblue;
+
+    }
+    .brush .extent{
+        fill:gray;
+        opacity: .3;
+    }
+
+    /*path {
+      fill: orange;
+      fill-opacity: 0.3;
+      stroke: white;
+      stroke-width: 1.0px;
+    }*/
+
+    .q0-0 { fill:rgb(255,140,0); }
+    .q0-9 { fill:rgb(247,251,255); }
+    .q1-9 { fill:rgb(222,235,247); }
+    .q2-9 { fill:rgb(198,219,239); }
+    .q3-9 { fill:rgb(158,202,225); }
+    .q4-9 { fill:rgb(107,174,214); }
+    .q5-9 { fill:rgb(66,146,198); }
+    .q6-9 { fill:rgb(33,113,181); }
+    .q7-9 { fill:rgb(8,81,156); }
+    .q8-9 { fill:rgb(8,48,107); }
+
+    div.tooltip {   
+      position: absolute;           
+      text-align: center;           
+      width: 125px;                  
+      height: 25px;                 
+      padding: 2px;             
+      font: 10px sans-serif;        
+      background: white;   
+      border: 0px;      
+      border-radius: 8px;           
+      pointer-events: none;         
+    }
+
+
+</style>
+
+
+
+<table>
+    <tr><td><div id="vis"></div></td><td><div id="detailVis"></div></td></tr>
+</table>
+
+
+<script src="usa-mobility.js"></script>
+
+</body>
+</html>
