@@ -114,6 +114,7 @@ function brushstart() {
 
 // Handles a brush event, toggling the display of foreground lines.
 function brush() {
+  console.log("y", y);
   var actives = dimensions.filter(function(p) { return !y[p].brush.empty(); }),
       extents = actives.map(function(p) { return y[p].brush.extent(); });
   foreground.style("display", function(d) {
