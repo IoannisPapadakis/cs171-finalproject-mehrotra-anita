@@ -1,4 +1,4 @@
-/**
+/*
  * @author: Anita Mehrotra
  * @class: CS 171 Visualization
  * @finalproject: Parallel coords + map
@@ -56,41 +56,40 @@ var path = d3.geo.path()
 
 function ready(error, us) {
 
-  // 1. create parallel lines
-  createParallelLines();
+
+  var allcounties = topojson.feature(us, us.objects.counties).features;
+
+  // 1. create parallel coordinates visualization & highlight counties on map
+  getCounties(allcounties);
 
   // 2. create USA map of mobility
 
   // create map
   detailVis.append("g")
-      .attr("class", "counties")
-    .selectAll("path")
-      .data(topojson.feature(us, us.objects.counties).features)
-    .enter().append("path")
-      .attr("class", function(d) { 
+    .attr("class", "counties")
+  .selectAll("path")
+    .data(allcounties)
+  .enter().append("path")
+    .attr("class", function(d) { 
+      return quantize_abs(mobilityById.get(d.id));
+    })
+    .attr("d", path);
 
-        if (mobilityById.get(d.id) == undefined) {
-          return "q0-0"; 
-        }
-        else {
-          return quantize_abs(mobilityById.get(d.id));
-        }
-
-      })
-      .attr("d", path);
-
+  // add county and state border lines
   detailVis.append("path")
       .datum(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; }))
       .attr("class", "states")
       .attr("d", path);
+  
 }
 
 // FUNCTIONS
-// d3.select(self.frameElement).style("height", height + "px");
 
-// parallel lines
-var createParallelLines = function() {
-  // console.log("width", width);
+// Create parallel coordinates visualization
+var createParallelCoords = function(allcounties, counties) {
+
+  // console.log("counties", counties);
+
   var x = d3.scale.ordinal().rangePoints([0, width-100], 1),
       y = {},
       dragging = {};
@@ -100,16 +99,16 @@ var createParallelLines = function() {
       background,
       foreground;
 
-  d3.csv("../data/feature_vectors2.csv", function(error, education) {
+  d3.csv("../data/all_data.csv", function(error, education) {
 
-    // Extract the list of dimensions and create a scale for each.
+    // Extract the list of dimensions, ignoring county ID, and create a scale for each.
     x.domain(dimensions = d3.keys(education[0]).filter(function(d) {
-      return d != "name" && (y[d] = d3.scale.linear()
+      return d != "County ID" && (y[d] = d3.scale.linear()
           .domain(d3.extent(education, function(p) { return +p[d]; }))
           .range([height-100, 0]));
     }));
 
-    // Add background lines for context.
+    // Add background lines (context)
     background = svg.append("g")
         .attr("class", "background")
       .selectAll("path")
@@ -117,7 +116,7 @@ var createParallelLines = function() {
       .enter().append("path")
         .attr("d", path);
 
-    // Add blue foreground lines for focus.
+    // Add foreground lines (focus)
     foreground = svg.append("g")
         .attr("class", "foreground")
       .selectAll("path")
@@ -125,37 +124,12 @@ var createParallelLines = function() {
       .enter().append("path")
         .attr("d", path);
 
-    // Add a group element for each dimension.
+    // Add a group element for each dimension/axis (feature vector)
     var g = svg.selectAll(".dimension")
         .data(dimensions)
       .enter().append("g")
         .attr("class", "dimension")
-        .attr("transform", function(d) { return "translate(" + x(d) + ")"; })
-        .call(d3.behavior.drag()
-          .on("dragstart", function(d) {
-            dragging[d] = this.__origin__ = x(d);
-            background.attr("visibility", "hidden");
-          })
-          .on("drag", function(d) {
-            dragging[d] = Math.min(w, Math.max(0, this.__origin__ += d3.event.dx));
-            foreground.attr("d", path);
-            dimensions.sort(function(a, b) { return position(a) - position(b); });
-            x.domain(dimensions);
-            g.attr("transform", function(d) { return "translate(" + position(d) + ")"; })
-          })
-          .on("dragend", function(d) {
-            delete this.__origin__;
-            delete dragging[d];
-            transition(d3.select(this)).attr("transform", "translate(" + x(d) + ")");
-            transition(foreground)
-                .attr("d", path);
-            background
-                .attr("d", path)
-                .transition()
-                .delay(500)
-                .duration(0)
-                .attr("visibility", null);
-          }));
+        .attr("transform", function(d) { return "translate(" + x(d) + ")"; });
 
     // Add feature axes and titles
     g.append("g")
@@ -196,16 +170,92 @@ var createParallelLines = function() {
 
   // Handles a brush event, toggling the display of foreground lines.
   function brush() {
-    var actives = dimensions.filter(function(p) { return !y[p].brush.empty(); }),
-        extents = actives.map(function(p) { return y[p].brush.extent(); });
+
+    var actives = dimensions.filter(function(p) { 
+      return !y[p].brush.empty(); // returns boolean: true if there IS a line
+    });
+
+    var extents = actives.map(function(p) { 
+      return y[p].brush.extent(); // returns an array with [lower bound, upper bound]
+    });
+
+    // identify county ID for selected lines
+    var ids = [];
+    foreground.style("display", function(d) {
+      actives.every(function(p, i) {
+        if ( extents[i][0] <= d[p] && d[p] <= extents[i][1] ) {
+
+          // store highlighted county IDs
+          ids.push(d["County ID"]);
+
+          // highlight counties on US map
+          highlightCounty(allcounties, ids);
+
+        }
+      })
+    });
+
+    // highlight selected lines
     foreground.style("display", function(d) {
       return actives.every(function(p, i) {
-        return extents[i][0] <= d[p] && d[p] <= extents[i][1];
+        return extents[i][0] <= d[p] && d[p] <= extents[i][1]; 
       }) ? null : "none";
+
     });
+
   }
+}
+
+
+// Get county ID's for each line in parallel coordinates
+var getCounties = function(allcounties) {
+
+  d3.csv("../data/countyID.csv", function(error, data) {
+
+    var counties = [];
+    data.forEach(function(d, i) {
+      counties[i] = d["County ID"];
+    });
+
+    // Create parallel coordinates
+    createParallelCoords(allcounties, counties);
+
+  })
 
 }
+
+
+// Highlight counties that are selected in parallel coordinates
+var highlightCounty = function(allcounties, ids) {
+  
+  ids.forEach(function(m) {
+
+    allcounties.forEach(function(d, i) {
+
+      // get geo-object associated with each id
+      var selected_county = [];
+      if (d.id==m) {
+        selected_county.push(d);
+      }
+
+      // highlight counties on map
+      detailVis.append("g")
+          .attr("class", "counties")
+        .selectAll("path")
+          .data(selected_county)
+        .enter().append("path")
+          .attr("d", path)
+          .style("fill", "red");
+      
+
+    });
+  
+  });
+
+}
+
+
+
 
 
 
