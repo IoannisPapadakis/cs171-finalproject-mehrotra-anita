@@ -11,12 +11,12 @@ var margin = {
     left: 10
 };
 
-var width = 960 - margin.left - margin.right,
+var width = 960,
     height = 500 - margin.bottom - margin.top;
 
 // create svg elements for each (detail and overview)
 var detailVisWidth = 600;
-var detailVisHeight = 500;
+var detailVisHeight = 700;
 
 var detailVis = d3.select("#detailVis").append("svg").attr({
     width:detailVisWidth,
@@ -24,13 +24,23 @@ var detailVis = d3.select("#detailVis").append("svg").attr({
 })
 
 var canvas = d3.select("#vis").append("svg").attr({
-    width: width + margin.left + margin.right,
+    width: width-100,
+    //  + margin.left + margin.right
     height: height + margin.top + margin.bottom
     })
 
 var svg = canvas.append("g").attr({
         transform: "translate(" + margin.left + "," + margin.top + ")"
     });
+
+svg.append("text")
+        .attr("x", ((width /2) - 450))             
+        .attr("y", 0 - (margin.top/2))
+        .attr("text-anchor", "left-align")  
+        .style("font-size", "40px")
+        .style("fill", "black")
+        .style("font-family", "Goudy Bookletter 1911")
+        .text("U.S. K-12 Education and Mobility");
 
 // load data
 queue()
@@ -49,7 +59,7 @@ var quantize_abs = d3.scale.quantize()
 
 var projection = d3.geo.albersUsa()
     .scale(800)
-    .translate([(detailVisWidth-20)/2, (detailVisHeight-60) / 2]);
+    .translate([(detailVisWidth-28)/2, (detailVisHeight-60) / 2]);
 
 var path = d3.geo.path()
     .projection(projection);
@@ -210,7 +220,7 @@ var createParallelCoords = function(allcounties, counties) {
 // Get county ID's for each line in parallel coordinates
 var getCounties = function(allcounties) {
 
-  d3.csv("../data/countyID.csv", function(error, data) {
+  d3.csv("../data/countyID_again.csv", function(error, data) {
 
     var counties = [];
     data.forEach(function(d, i) {
@@ -245,7 +255,9 @@ var highlightCounty = function(allcounties, ids) {
           .data(selected_county)
         .enter().append("path")
           .attr("d", path)
-          .style("fill", "red");
+          .style("stroke-width", 1.25)
+          .style("stroke", "darkred")
+          .style("stroke-opacity", .7);
       
 
     });
