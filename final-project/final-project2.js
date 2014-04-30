@@ -14,14 +14,9 @@ var margin = {
 var width = 960,
     height = 500 - margin.bottom - margin.top;
 
-// create svg elements for each (detail and overview)
+// create svg elements for each viz (detail and overview)
 var detailVisWidth = 600;
 var detailVisHeight = 700;
-
-var detailVis = d3.select("#detailVis").append("svg").attr({
-    width:detailVisWidth,
-    height:detailVisHeight
-})
 
 var canvas = d3.select("#vis").append("svg").attr({
     width: width-100,
@@ -33,8 +28,14 @@ var svg = canvas.append("g").attr({
         transform: "translate(" + margin.left + "," + margin.top + ")"
     });
 
+var detailVis = d3.select("#detailVis").append("svg").attr({
+    width:detailVisWidth,
+    height:detailVisHeight
+})
+
 var brush_timer;
 
+// title
 svg.append("text")
         .attr("x", ((width /2) - 450))             
         .attr("y", 0 - (margin.top/2))
@@ -43,8 +44,6 @@ svg.append("text")
         .style("fill", "black")
         .style("font-family", "Goudy Bookletter 1911")
         .text("U.S. K-12 Education and Mobility");
-
-
 
 
 // load data
@@ -58,8 +57,11 @@ queue()
     })
     .await(ready);
 
-// set up scales
+// initialize vars and set up scales
 var names_and_mobility = [];
+var ext_color_domain = [0, 25, 30, 35, 40, 45, 50, 55, 60];
+var legend_labels = ["< 25", "25+", "30+", "35+", "40+", "45+", "50+", "55+", "> 60"] 
+var centered;
 
 var mobilityById = d3.map();
 
@@ -73,6 +75,7 @@ var projection = d3.geo.albersUsa()
 
 var path = d3.geo.path()
     .projection(projection);
+
 
 function ready(error, us) {
 
@@ -95,11 +98,10 @@ function ready(error, us) {
                     .data(allcounties)
                   .enter().append("path");
 
-  // color counties according to scale
-  counties.attr("class", function(d) { 
-              return quantize_abs(mobilityById.get(d.id));
-            })
-          .attr("d", path);
+  // color counties according to scale and zoom on click
+  counties.attr("class", function(d) { return quantize_abs(mobilityById.get(d.id)); })
+          .attr("d", path)
+          .on("click", clicked);
 
   // add county and state border lines
   detailVis.append("path")
@@ -114,8 +116,6 @@ function ready(error, us) {
     fip_name[d.fip] = d["county state"];
     fip_mobility[d.fip] = d["absolute mobility"];
   })
-  // console.log(fip_name);
-  // console.log(fip_mobility);
 
   counties.on("mouseover", function (d) { 
       div.transition()        
@@ -130,10 +130,68 @@ function ready(error, us) {
               .duration(500)
               .style("opacity", 0);
       });
+
+  // add legend
+  var legend = detailVis.selectAll("g.legend")
+  .data(ext_color_domain)
+  .enter().append("g")
+  .attr("class", "legend");
+
+  var ls_w = 20, ls_h = 20;
+
+  legend.append("rect")
+    .attr("x", 550)
+    .attr("y", function(d, i){ return height + 150 - (i*ls_h) - 2*ls_h; })
+    .attr("width", ls_w)
+    .attr("height", ls_h)
+    .attr("class", function(d) { return quantize_abs(d); })
+    .style("opacity", 0.8);
+
+  legend.append("text")
+    .attr("x", 529)
+    .attr("y", function(d, i){ return height + 146 - (i*ls_h) - ls_h - 4;})
+    .text(function(d, i){ return legend_labels[i]; })
+    .style("font-size", "9px");
   
 }
 
 // FUNCTIONS
+
+// Zoom in on U.S. map if clicked
+function clicked(d) {
+  var x, y, k;
+  console.log("clicked");
+  console.log("d", d);
+
+
+  if (d && centered !== d) {
+    // console.log("centered", centered);
+    console.log("d", d);
+    var centroid = path.centroid(d);
+    x = centroid[0];
+    y = centroid[1];
+    k = 4;
+    centered = d;
+    // console.log("centered", centered);
+
+  } else {
+    // x = width / 2;
+    // y = height / 2;
+    x = detailVisWidth / 2;
+    y = detailVisHeight / 2;
+    k = 1;
+    centered = null;
+  }
+
+  canvas.selectAll("path")
+      .classed("active", centered && function(d) { return d === centered; });
+
+  canvas.transition()
+      .duration(750)
+      // .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")scale(" + k + ")translate(" + -x + "," + -y + ")")
+      .attr("transform", "translate(" + detailVisWidth / 2 + "," + detailVisHeight / 2 + ")scale(" + k + ")translate(" + -x + "," + -y + ")")
+      .style("stroke-width", 1.5 / k + "px");
+}
 
 // Get county ID's for each line in parallel coordinates
 var getCounties = function(allcounties) {
@@ -288,7 +346,7 @@ var createParallelCoords = function(allcounties, counties) {
             // if it's the first selection, and curr_ids is empty, use all selected ids
             //    otherwise, use curr_ids
             if (count_of_axes == 1) {
-              
+
               curr_ids.push(d["County ID"]);
               // console.log(p);
               // console.log("curr_ids ", curr_ids);
@@ -343,7 +401,7 @@ var createParallelCoords = function(allcounties, counties) {
 
       });
 
-    }, 500);
+    }, 100);
   }
 }
 
@@ -381,25 +439,6 @@ var highlightCounty = function(allcounties, ids) {
       .style("fill", "none")
       .style("stroke-opacity", .7);
 
-}
-
-var removeHighlight = function(allcounties, ids) {
-
-  var selected_county = [];
-  ids.forEach(function(m) {
-
-    allcounties.forEach(function(d, i) {
-
-      // get geo-object associated with each id
-      if (d.id==m) {
-        selected_county.push(d);
-      }
-
-    });
-
-  });
-
-  detailVis.select("g.highlight").data(selected_county).remove();
 }
 
 
