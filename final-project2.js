@@ -48,11 +48,11 @@ svg.append("text")
 
 // load data
 queue()
-    .defer(d3.json, "../data/counties.json")
-    .defer(d3.tsv, "../data/county_and_mobility.tsv", function(d) {
+    .defer(d3.json, "data/counties.json")
+    .defer(d3.tsv, "data/county_and_mobility.tsv", function(d) {
       names_and_mobility.push(d);
     })
-    .defer(d3.tsv, "../data/absolute_mobility.tsv", function(d) { 
+    .defer(d3.tsv, "data/absolute_mobility.tsv", function(d) { 
       mobilityById.set(d.id, +d.absolute);
     })
     .await(ready);
@@ -196,7 +196,7 @@ function clicked(d) {
 // Get county ID's for each line in parallel coordinates
 var getCounties = function(allcounties) {
 
-  d3.csv("../data/countyID_again.csv", function(error, data) {
+  d3.csv("data/countyID_again.csv", function(error, data) {
 
     var counties = [];
     data.forEach(function(d, i) {
@@ -224,7 +224,7 @@ var createParallelCoords = function(allcounties, counties) {
       background,
       foreground;
 
-  d3.csv("../data/all_data.csv", function(error, education) {
+  d3.csv("data/all_data.csv", function(error, education) {
 
     // Extract the list of dimensions, ignoring county ID, and create a scale for each.
     x.domain(dimensions = d3.keys(education[0]).filter(function(d) {
