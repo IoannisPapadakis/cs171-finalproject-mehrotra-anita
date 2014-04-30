@@ -1,0 +1,3237 @@
+county state	fip	absolute mobility
+Autauga AL	1001	38.4
+Baldwin AL	1003	39.6
+Barbour GA	1005	36.1
+Bibb AL	1007	39.1
+Blount AL	1009	42.0
+Bullock AL	1011	34.2
+Butler AL	1013	37.9
+Calhoun GA	1015	38.3
+Calhoun GA	1015	35.3
+Calhoun GA	13037	38.3
+Calhoun GA	13037	35.3
+Chambers GA	1017	35.4
+Cherokee GA	1019	37.0
+Cherokee GA	1019	42.1
+Cherokee GA	13057	37.0
+Cherokee GA	13057	42.1
+Chilton AL	1021	40.3
+Choctaw AL	1023	40.5
+Clarke AL	1025	39.9
+Clay AL	1027	40.9
+Cleburne GA	1029	43.9
+Coffee AL	1031	41.0
+Colbert AL	1033	38.8
+Conecuh AL	1035	38.5
+Coosa AL	1037	37.9
+Covington AL	1039	43.4
+Crenshaw AL	1041	44.0
+Cullman AL	1043	42.2
+Dale AL	1045	39.8
+Dallas AL	1047	35.5
+De Kalb AL	1049	42.4
+Elmore AL	1051	39.1
+Escambia AL	1053	40.2
+Etowah AL	1055	39.3
+Fayette AL	1057	42.8
+Franklin AL	1059	42.6
+Geneva AL	1061	38.6
+Greene AL	1063	34.8
+Hale AL	1065	37.2
+Henry AL	1067	37.7
+Houston AL	1069	38.1
+Jackson AL	1071	42.1
+Jefferson AL	1073	36.2
+Lamar AL	1075	44.3
+Lauderdale AL	1077	42.2
+Lawrence AL	1079	40.6
+Lawrence AL	1079	41.2
+Lawrence AL	47099	40.6
+Lawrence AL	47099	41.2
+Lee AL	1081	36.7
+Limestone AL	1083	38.9
+Lowndes AL	1085	34.7
+Macon AL	1087	33.7
+Madison AL	1089	37.1
+Marengo AL	1091	37.8
+Marion AL	1093	43.2
+Marshall AL	1095	41.7
+Mobile AL	1097	37.4
+Monroe AL	1099	38.1
+Montgomery AL	1101	34.3
+Morgan AL	1103	38.8
+Perry AL	1105	36.0
+Pickens MS	1107	37.7
+Pike AL	1109	40.0
+Randolph GA	1111	38.2
+Randolph GA	1111	35.3
+Randolph GA	13243	38.2
+Randolph GA	13243	35.3
+Russell GA	1113	35.7
+St Clair AL	1115	40.8
+Shelby AL	1117	40.4
+Sumter AL	1119	35.7
+Talladega AL	1121	37.4
+Tallapoosa AL	1123	38.0
+Tuscaloosa AL	1125	37.3
+Walker AL	1127	41.1
+Washington AL	1129	43.1
+Wilcox AL	1131	35.1
+Winston AL	1133	41.1
+Aleutians East AK	2013	
+Aleutians West AK	2016	
+Anchorage AK	2020	44.1	
+Bethel AK	2050	34.1
+Bristol Bay AK	2060	
+Denali AK	2068	
+Dillingham AK	2070	
+Fairbanks North Star AK	2090	45.0	
+Haines AK	2100	
+Juneau AK	2110	41.7
+Kenai Peninsula AK	2122	47.3	
+Ketchikan Gateway AK	2130	43.8
+Kodiak Island AK	2150	45.7
+Lake and Peninsula AK	2164	
+Matanuska Susitna AK	2170	47.7
+Nome AK	2180	30.7
+North Slope AK	2185	31.2	
+Northwest Arctic AK	2188	31.3	
+Prince Wales Ketchikan AK	2201	38.6	
+Sitka AK	2220	38.0
+Skagway Hoonah Angoon AK	2232		
+Southeast Fairbanks AK	2240	50.7
+Valdez Cordova AK	2261	45.9
+Wade Hampton AK	2270	
+Wrangell Petersburg AK	2280	44.2	
+Yakutat AK	2282	
+Yukon Koyukuk AK	2290	41.9
+Apache AZ	4001	34.6
+Cochise AZ	4003	42.9
+Coconino AZ	4005	39.5
+Gila AZ	4007	38.2
+Graham AZ	4009	44.7
+Greenlee AZ	4011	44.4
+La Paz CA	4012	37.2
+Maricopa AZ	4013	40.7
+Mohave NV	4015	40.4
+Navajo AZ	4017	35.8
+Pima AZ	4019	39.0
+Pinal AZ	4021	36.1
+Santa Cruz AZ	4023	43.0
+Yavapai AZ	4025	43.2
+Yuma CA	4027	44.0
+Arkansas AR	5001	39.8
+Ashley AR	5003	38.6
+Baxter AR	5005	43.5
+Benton AR	5007	44.0
+Boone AR	5009	44.8
+Bradley AR	5011	40.7
+Calhoun AR	5013	
+Carroll AR	5015	44.4
+Chicot AR	5017	35.1
+Clark AR	5019	41.0
+Clay AR	5021	42.3
+Cleburne AR	5023	46.8
+Cleveland AR	5025	40.2
+Columbia AR	5027	39.6
+Conway AR	5029	42.9
+Craighead AR	5031	41.2
+Crawford AR	5033	41.0
+Crittenden AR	5035	33.5
+Cross AR	5037	39.0
+Dallas AR	5039	37.1
+Desha AR	5041	36.4
+Drew AR	5043	38.1
+Faulkner AR	5045	43.3
+Franklin AR	5047	45.4
+Fulton MO	5049	44.8
+Garland AR	5051	40.2
+Grant AR	5053	43.4
+Greene AR	5055	40.7
+Hempstead AR	5057	37.8
+Hot Spring AR	5059	39.7
+Howard AR	5061	39.0
+Independence AR	5063	44.3
+Izard AR	5065	44.1
+Jackson AR	5067	38.6
+Jefferson AR	5069	35.7
+Johnson AR	5071	43.5
+Lafayette AR	5073	36.1
+Lawrence AR	5075	43.2
+Lee AR	5077	37.4
+Lincoln AR	5079	38.4
+Little River TX	5081	41.4
+Logan AR	5083	43.1
+Lonoke AR	5085	39.9
+Madison AR	5087	43.4
+Marion AR	5089	44.1
+Miller TX	5091	38.1
+Mississippi AR	5093	36.9
+Monroe AR	5095	39.8
+Montgomery AR	5097	
+Nevada AR	5099	39.8
+Newton AR	5101	42.9
+Ouachita AR	5103	37.5
+Perry AR	5105	44.0
+Phillips AR	5107	35.0
+Pike AR	5109	45.3
+Poinsett AR	5111	38.0
+Polk OK	5113	45.3
+Pope AR	5115	41.4
+Prairie AR	5117	40.5
+Pulaski AR	5119	35.8
+Randolph AR	5121	43.0
+St Francis AR	5123	35.1
+Saline AR	5125	40.6
+Scott AR	5127	42.7
+Searcy AR	5129	46.9
+Sebastian AR	5131	40.2
+Sevier OK	5133	44.3
+Sharp AR	5135	43.7
+Stone AR	5137	40.0
+Union AR	5139	37.4
+Van Buren AR	5141	45.4
+Washington AR	5143	42.8
+White AR	5145	42.8
+Woodruff AR	5147	37.6
+Yell AR	5149	42.1
+Alameda CA	6001	42.5
+Alpine CA	6003	
+Amador CA	6005	44.2
+Butte CA	6007	41.3
+Calaveras CA	6009	42.8
+Colusa CA	6011	47.8
+Contra Costa CA	6013	43.6
+Del Norte CA	6015	38.6
+El Dorado CA	6017	45.6
+Fresno CA	6019	40.8
+Glenn CA	6021	43.6
+Humboldt CA	6023	38.9
+Imperial CA	6025	44.0
+Inyo CA	6027	43.7
+Kern CA	6029	45.3
+Kings CA	6031	42.2
+Lake CA	6033	40.4
+Lassen CA	6035	44.3
+Los Angeles CA	6037	43.3
+Madera CA	6039	41.7
+Marin CA	6041	46.7
+Mariposa CA	6043	45.1
+Mendocino CA	6045	40.0
+Merced CA	6047	42.0
+Modoc CA	6049	46.7
+Mono CA	6051	48.1
+Monterey CA	6053	43.6
+Napa CA	6055	47.3
+Nevada CA	6057	44.2
+Orange CA	6059	46.4
+Placer CA	6061	45.4
+Plumas CA	6063	44.0
+Riverside CA	6065	41.8
+Sacramento CA	6067	41.6
+San Benito CA	6069	43.8
+San Bernardino CA	6071	42.0
+San Diego CA	6073	44.3
+San Francisco CA	6075	47.8
+San Joaquin CA	6077	42.6
+San Luis Obispo CA	6079	45.1
+San Mateo CA	6081	47.0
+Santa Barbara CA	6083	44.4
+Santa Clara CA	6085	45.6
+Santa Cruz CA	6087	43.4
+Shasta CA	6089	41.9
+Sierra CA	6091	
+Siskiyou CA	6093	44.5
+Solano CA	6095	42.8
+Sonoma CA	6097	43.6
+Stanislaus CA	6099	42.2
+Sutter CA	6101	44.6
+Tehama CA	6103	41.4
+Trinity CA	6105	42.5
+Tulare CA	6107	42.1
+Tuolumne CA	6109	44.8
+Ventura CA	6111	44.5
+Yolo CA	6113	44.3
+Yuba CA	6115	42.4
+Adams CO	8001	41.7
+Alamosa CO	8003	44.1
+Arapahoe CO	8005	44.0
+Archuleta NM	8007	43.7
+Baca CO	8009	
+Bent CO	8011	
+Boulder CO	8013	46.8
+Chaffee CO	8015	48.1
+Cheyenne CO	8017	
+Clear Creek CO	8019	
+Conejos CO	8021	48.0
+Costilla CO	8023	
+Crowley CO	8025	
+Custer CO	8027	
+Delta CO	8029	50.3
+Denver CO	8031	37.6
+Dolores CO	8033	
+Douglas CO	8035	47.9
+Eagle CO	8037	45.9
+Elbert CO	8039	46.7
+El Paso CO	8041	41.2
+Fremont CO	8043	45.6
+Garfield CO	8045	49.3
+Gilpin CO	8047	
+Grand CO	8049	42.7
+Gunnison CO	8051	48.3
+Hinsdale CO	8053	
+Huerfano CO	8055	43.2
+Jackson WY	8057	
+Jefferson CO	8059	45.4
+Kiowa CO	8061	
+Kit Carson CO	8063	55.5
+Lake CO	8065	43.0
+La Plata NM	8067	47.8
+Larimer CO	8069	45.4
+Las Animas CO	8071	45.5
+Lincoln CO	8073	
+Logan CO	8075	50.1
+Mesa CO	8077	46.6
+Mineral CO	8079	
+Moffat CO	8081	48.6
+Montezuma CO	8083	46.4
+Montrose CO	8085	45.1
+Morgan CO	8087	47.8
+Otero CO	8089	43.2
+Ouray CO	8091	
+Park CO	8093	48.6
+Phillips CO	8095	
+Pitkin CO	8097	42.0
+Prowers CO	8099	48.3
+Pueblo CO	8101	39.2
+Rio Blanco CO	8103	56.7
+Rio Grande CO	8105	44.8
+Routt CO	8107	50.9
+Saguache CO	8109	45.3
+San Juan NM	8111	40.3
+San Juan NM	35045	40.3
+San Miguel CO	8113	
+Sedgwick NE	8115	
+Summit CO	8117	48.4
+Teller CO	8119	45.6
+Washington CO	8121	
+Weld CO	8123	44.3
+Yuma CO	8125	54.3
+Fairfield CT	9001	42.9
+Hartford CT	9003	41.6
+Litchfield CT	9005	44.3
+Middlesex CT	9007	44.7
+New Haven CT	9009	41.9
+New London CT	9011	42.8
+Tolland CT	9013	46.1
+Windham CT	9015	42.9
+Kent DE	10001	39.7
+New Castle DE	10003	37.1
+Sussex DE	10005	37.9
+District of Columbia DC	11001	35.8
+Alachua FL	12001	38.1
+Baker FL	12003	39.6
+Bay FL	12005	39.7
+Bradford FL	12007	38.9
+Brevard FL	12009	39.5
+Broward FL	12011	40.3
+Calhoun FL	12013	40.3
+Charlotte FL	12015	41.9
+Citrus FL	12017	40.8
+Clay FL	12019	40.9
+Collier FL	12021	40.4
+Columbia FL	12023	38.3
+De Soto FL	12027	37.0
+Dixie FL	12029	41.1
+Duval FL	12031	36.7
+Escambia FL	12033	38.1
+Flagler FL	12035	40.2
+Franklin FL	12037	36.0
+Gadsden FL	12039	33.8
+Gilchrist FL	12041	41.3
+Glades FL	12043	
+Gulf FL	12045	36.1
+Hamilton FL	12047	37.3
+Hardee FL	12049	40.7
+Hendry FL	12051	38.8
+Hernando FL	12053	40.4
+Highlands FL	12055	39.5
+Hillsborough FL	12057	38.7
+Holmes FL	12059	41.6
+Indian River FL	12061	38.9
+Jackson FL	12063	40.0
+Jefferson FL	12065	36.7
+Lafayette FL	12067	
+Lake FL	12069	38.1
+Lee FL	12071	39.1
+Leon FL	12073	37.8
+Levy FL	12075	38.6
+Liberty FL	12077	
+Madison FL	12079	35.4
+Manatee FL	12081	37.5
+Marion FL	12083	38.3
+Martin FL	12085	39.1
+Miami-Dade FL	12086	42.0
+Monroe FL	12087	43.7
+Nassau FL	12089	37.7
+Okaloosa FL	12091	40.8
+Okeechobee FL	12093	39.0
+Orange FL	12095	38.5
+Osceola FL	12097	40.2
+Palm Beach FL	12099	39.3
+Pasco FL	12101	39.1
+Pinellas FL	12103	39.6
+Polk FL	12105	39.3
+Putnam FL	12107	36.9
+St Johns FL	12109	39.3
+St Lucie FL	12111	37.6
+Santa Rosa FL	12113	42.8
+Sarasota FL	12115	40.2
+Seminole FL	12117	41.3
+Sumter FL	12119	37.6
+Suwannee FL	12121	41.1
+Taylor FL	12123	39.8
+Union FL	12125	38.1
+Volusia FL	12127	39.6
+Wakulla FL	12129	39.5
+Walton FL	12131	39.5
+Washington FL	12133	40.7
+Appling GA	13001	39.1
+Atkinson GA	13003	37.6
+Bacon GA	13005	37.4
+Baker GA	13007	
+Baldwin GA	13009	32.9
+Banks GA	13011	40.8
+Barrow GA	13013	37.6
+Bartow GA	13015	37.4
+Ben Hill GA	13017	36.6
+Berrien GA	13019	40.4
+Bibb GA	13021	34.0
+Bleckley GA	13023	35.8
+Brantley GA	13025	38.7
+Brooks GA	13027	35.8
+Bryan GA	13029	38.8
+Bulloch GA	13031	35.4
+Burke GA	13033	35.4
+Butts GA	13035	36.0
+Camden FL	13039	38.4
+Candler GA	13043	34.5
+Carroll GA	13045	38.8
+Catoosa TN	13047	40.8
+Charlton FL	13049	40.0
+Chatham GA	13051	35.0
+Chattahoochee GA	13053	
+Chattooga GA	13055	38.8
+Clarke GA	13059	32.8
+Clay GA	13061	
+Clayton GA	13063	35.8
+Clinch GA	13065	36.7
+Cobb GA	13067	39.8
+Coffee GA	13069	36.4
+Colquitt GA	13071	36.0
+Columbia GA	13073	39.6
+Cook GA	13075	36.3
+Coweta GA	13077	35.9
+Crawford GA	13079	
+Crisp GA	13081	33.3
+Dade TN	13083	41.5
+Dawson GA	13085	38.2
+Decatur GA	13087	37.4
+De Kalb GA	13089	34.6
+Dodge GA	13091	39.8
+Dooly GA	13093	35.8
+Dougherty GA	13095	32.6
+Douglas GA	13097	39.5
+Early GA	13099	34.4
+Echols GA	13101	
+Effingham GA	13103	41.0
+Elbert GA	13105	36.2
+Emanuel GA	13107	37.8
+Evans GA	13109	36.2
+Fannin GA	13111	39.9
+Fayette GA	13113	43.7
+Floyd GA	13115	36.1
+Forsyth GA	13117	46.9
+Franklin GA	13119	38.9
+Fulton GA	13121	33.1
+Gilmer GA	13123	41.4
+Glascock GA	13125	
+Glynn GA	13127	35.5
+Gordon GA	13129	39.2
+Grady GA	13131	37.0
+Greene GA	13133	33.2
+Gwinnett GA	13135	41.3
+Habersham GA	13137	39.3
+Hall GA	13139	39.1
+Hancock GA	13141	33.3
+Haralson GA	13143	40.9
+Harris GA	13145	38.1
+Hart GA	13147	38.9
+Heard GA	13149	35.9
+Henry GA	13151	39.5
+Houston GA	13153	38.5
+Irwin GA	13155	37.2
+Jackson GA	13157	37.6
+Jasper GA	13159	34.4
+Jasper GA	13159	34.1
+Jasper GA	45053	34.4
+Jasper GA	45053	34.1
+Jeff Davis GA	13161	36.9
+Jefferson GA	13163	35.0
+Jenkins GA	13165	35.2
+Johnson GA	13167	34.3
+Jones GA	13169	37.5
+Lamar GA	13171	37.9
+Lanier GA	13173	
+Laurens GA	13175	35.4
+Lee GA	13177	40.6
+Liberty GA	13179	37.8
+Lincoln GA	13181	36.3
+Long GA	13183	
+Lowndes GA	13185	36.3
+Lumpkin GA	13187	40.9
+McDuffie GA	13189	35.9
+McIntosh GA	13191	36.4
+Macon GA	13193	33.8
+Madison GA	13195	36.6
+Marion GA	13197	
+Meriwether GA	13199	33.6
+Miller GA	13201	38.3
+Mitchell GA	13205	35.5
+Monroe GA	13207	35.2
+Montgomery GA	13209	38.0
+Morgan GA	13211	33.3
+Murray GA	13213	35.5
+Muscogee GA	13215	35.2
+Newton GA	13217	34.4
+Oconee GA	13219	40.5
+Oglethorpe GA	13221	35.9
+Paulding GA	13223	38.2
+Peach GA	13225	35.4
+Pickens GA	13227	39.3
+Pierce GA	13229	41.6
+Pike GA	13231	39.2
+Polk GA	13233	37.4
+Pulaski GA	13235	33.7
+Putnam GA	13237	34.0
+Quitman GA	13239	
+Rabun NC	13241	38.5
+Richmond GA	13245	35.8
+Rockdale GA	13247	39.8
+Schley GA	13249	
+Screven GA	13251	36.1
+Seminole GA	13253	37.6
+Spalding GA	13255	34.9
+Stephens GA	13257	38.7
+Stewart GA	13259	
+Sumter GA	13261	33.5
+Talbot GA	13263	33.5
+Taliaferro GA	13265	
+Tattnall GA	13267	36.5
+Taylor GA	13269	35.9
+Telfair GA	13271	36.9
+Terrell GA	13273	34.8
+Thomas GA	13275	36.1
+Tift GA	13277	35.9
+Toombs GA	13279	37.8
+Towns NC	13281	
+Treutlen GA	13283	39.2
+Troup GA	13285	35.3
+Turner GA	13287	34.6
+Twiggs GA	13289	33.7
+Union NC	13291	41.5
+Union NC	13291	38.6
+Union NC	37179	41.5
+Union NC	37179	38.6
+Upson GA	13293	36.8
+Walker TN	13295	38.3
+Walton GA	13297	36.8
+Ware GA	13299	37.2
+Warren GA	13301	32.7
+Washington GA	13303	34.3
+Wayne GA	13305	37.6
+Webster GA	13307	
+Wheeler GA	13309	
+White GA	13311	45.0
+Whitfield GA	13313	38.3
+Wilcox GA	13315	40.0
+Wilkes GA	13317	35.9
+Wilkinson GA	13319	32.3
+Worth GA	13321	38.6
+Hawaii HI	15001	40.1		
+Honolulu HI	15003	44.8	
+Kalaupapa HI	15005	
+Kauai HI	15007	43.6
+Maui HI	15009	42.2
+Ada ID	16001	42.6
+Adams ID	16003	
+Bannock ID	16005	43.1
+Bear Lake ID	16007	53.8
+Benewah WA	16009	45.6
+Bingham ID	16011	46.3
+Blaine ID	16013	43.1
+Boise ID	16015	
+Bonner WA	16017	45.7
+Bonneville ID	16019	45.5
+Boundary ID	16021	46.2
+Butte ID	16023	
+Camas ID	16025	
+Canyon ID	16027	41.6
+Caribou ID	16029	53.4
+Cassia ID	16031	48.2
+Clark ID	16033	
+Clearwater ID	16035	46.7
+Custer ID	16037	
+Elmore ID	16039	44.1
+Franklin UT	16041	54.8
+Fremont ID	16043	49.6
+Gem ID	16045	45.5
+Gooding ID	16047	46.3
+Idaho ID	16049	48.5
+Jefferson ID	16051	49.1
+Jerome ID	16053	45.2
+Kootenai WA	16055	44.8
+Latah WA	16057	46.3
+Lemhi ID	16059	46.2
+Lewis ID	16061	46.9
+Lincoln ID	16063	
+Madison ID	16065	51.6
+Minidoka ID	16067	49.2
+Nez Perce ID	16069	43.6
+Oneida UT	16071	
+Owyhee ID	16073	46.0
+Payette OR	16075	43.9
+Power ID	16077	46.9
+Shoshone WA	16079	43.4
+Teton WY	16081	50.1
+Teton WY	16081	50.4
+Teton WY	56039	50.1
+Teton WY	56039	50.4
+Twin Falls ID	16083	45.5
+Valley ID	16085	43.3
+Washington OR	16087	45.7
+Washington OR	16087	43.1
+Washington OR	41067	45.7
+Washington OR	41067	43.1
+Adams IL	17001	45.4
+Alexander IL	17003	35.7
+Bond IL	17005	43.3
+Boone IL	17007	42.9
+Brown IL	17009	
+Bureau IL	17011	47.2
+Calhoun IL	17013	
+Carroll IL	17015	46.8
+Cass IL	17017	44.4
+Champaign IL	17019	40.5
+Christian IL	17021	45.1
+Clark IL	17023	47.5
+Clay IL	17025	44.5
+Clinton IL	17027	52.3
+Coles IL	17029	40.9
+Cook IL	17031	38.0
+Crawford IL	17033	43.7
+Cumberland IL	17035	44.0
+De Kalb IL	17037	45.3
+Dewitt IL	17039	46.3
+Douglas IL	17041	48.8
+Du Page IL	17043	49.0
+Edgar IL	17045	45.7
+Edwards IL	17047	49.0
+Effingham IL	17049	50.3
+Fayette IL	17051	45.6
+Ford IL	17053	47.8
+Franklin IL	17055	45.3
+Fulton IL	17057	44.1
+Gallatin IL	17059	50.5
+Greene IL	17061	48.2
+Grundy IL	17063	46.8
+Hamilton IL	17065	49.4
+Hancock IA	17067	51.4
+Hancock IA	17067	55.1
+Hancock IA	19081	51.4
+Hancock IA	19081	55.1
+Hardin IL	17069	
+Henderson IA	17071	50.4
+Henry IL	17073	46.9
+Iroquois IL	17075	47.4
+Jackson IL	17077	40.5
+Jasper IL	17079	53.0
+Jefferson IL	17081	43.0
+Jersey IL	17083	46.4
+Jo Daviess IA	17085	50.3
+Johnson IL	17087	44.4
+Kane IL	17089	41.4
+Kankakee IL	17091	40.9
+Kendall IL	17093	49.2
+Knox IL	17095	41.7
+Lake IL	17097	42.7
+La Salle IL	17099	45.2
+Lawrence IN	17101	44.8
+Lawrence IN	17101	39.7
+Lawrence IN	18093	44.8
+Lawrence IN	18093	39.7
+Lee IL	17103	45.2
+Livingston IL	17105	46.9
+Logan IL	17107	45.1
+McDonough IL	17109	48.2
+McHenry IL	17111	46.7
+Mclean IL	17113	42.7
+Macon IL	17115	39.5
+Macoupin IL	17117	44.3
+Madison IL	17119	41.4
+Marion IL	17121	40.8
+Marion IL	17121	44.5
+Marion IL	29127	40.8
+Marion IL	29127	44.5
+Marshall IL	17123	47.4
+Mason IL	17125	43.1
+Massac KY	17127	41.4
+Menard IL	17129	46.8
+Mercer IL	17131	50.8
+Monroe MO	17133	51.1
+Monroe MO	17133	47.5
+Monroe MO	29137	51.1
+Monroe MO	29137	47.5
+Montgomery IL	17135	44.2
+Morgan IL	17137	41.4
+Moultrie IL	17139	45.8
+Ogle IL	17141	45.8
+Peoria IL	17143	37.9
+Perry IL	17145	45.2
+Piatt IL	17147	46.6
+Pike IL	17149	47.4
+Pike IL	17149	43.8
+Pike IL	29163	47.4
+Pike IL	29163	43.8
+Pope KY	17151	
+Pulaski IL	17153	38.6
+Putnam IL	17155	42.6
+Randolph IL	17157	47.7
+Richland IL	17159	46.2
+Rock Island IL	17161	42.0
+St Clair MO	17163	37.6
+St Clair MO	17163	44.3
+St Clair MO	29185	37.6
+St Clair MO	29185	44.3
+Saline IL	17165	42.8
+Sangamon IL	17167	39.4
+Schuyler IL	17169	47.9
+Scott IL	17171	42.6
+Scott IL	19163	42.6
+Shelby IL	17173	45.9
+Stark IL	17175	50.1
+Stephenson IL	17177	42.5
+Tazewell IL	17179	43.9
+Union IL	17181	42.8
+Vermilion IN	17183	40.8
+Wabash IN	17185	44.8
+Wabash IN	17185	41.2
+Wabash IN	18169	44.8
+Wabash IN	18169	41.2
+Warren IL	17187	45.0
+Washington IL	17189	50.6
+Wayne IL	17191	48.7
+White IL	17193	46.7
+Whiteside IL	17195	43.9
+Will IL	17197	42.4
+Williamson IL	17199	41.1
+Winnebago IL	17201	38.0
+Woodford IL	17203	48.3
+Adams IN	18001	45.3
+Allen IN	18003	38.6
+Bartholomew IN	18005	39.0
+Benton IN	18007	50.0
+Blackford IN	18009	39.7
+Boone IN	18011	42.6
+Brown IN	18013	44.1
+Carroll IN	18015	47.7
+Carroll IN	18015	39.0
+Carroll IN	21041	47.7
+Carroll IN	21041	39.0
+Cass IN	18017	42.1
+Cass IN	18017	40.6
+Cass IN	26027	42.1
+Cass IN	26027	40.6
+Clark KY	18019	39.4
+Clark KY	18019	35.5
+Clark KY	21049	39.4
+Clark KY	21049	35.5
+Clay IN	18021	43.6
+Clinton IN	18023	41.8
+Crawford KY	18025	42.6
+Daviess IN	18027	46.2
+Dearborn IN	18029	42.5
+Decatur IN	18031	42.8
+De Kalb IN	18033	41.2
+Delaware IN	18035	36.7
+Dubois IN	18037	52.7
+Elkhart IN	18039	41.0
+Fayette IN	18041	35.2
+Floyd KY	18043	39.7
+Floyd KY	18043	42.0
+Floyd KY	21071	39.7
+Floyd KY	21071	42.0
+Fountain IN	18045	44.6
+Franklin IN	18047	39.1
+Fulton IN	18049	42.7
+Gibson IN	18051	47.9
+Grant IN	18053	37.3
+Greene IN	18055	43.7
+Hamilton IN	18057	43.2
+Hancock IN	18059	42.5
+Harrison KY	18061	44.6
+Harrison KY	18061	39.0
+Harrison KY	21097	44.6
+Harrison KY	21097	39.0
+Hendricks IN	18063	45.3
+Henry IN	18065	39.8
+Howard IN	18067	37.3
+Huntington IN	18069	41.6
+Jackson IN	18071	42.4
+Jasper IN	18073	48.7
+Jay IN	18075	43.9
+Jefferson IN	18077	41.3
+Jennings IN	18079	40.4
+Johnson IN	18081	41.6
+Knox IN	18083	45.2
+Kosciusko IN	18085	43.7
+Lagrange IN	18087	49.0
+Lake IN	18089	39.4
+La Porte IN	18091	39.8
+Madison IN	18095	37.2
+Marion IN	18097	35.0
+Marshall IN	18099	43.3
+Martin IN	18101	44.3
+Miami IN	18103	40.7
+Monroe IN	18105	38.3
+Montgomery IN	18107	43.8
+Morgan IN	18109	41.2
+Newton IN	18111	45.7
+Noble IN	18113	42.8
+Ohio IN	18115	
+Orange IN	18117	41.4
+Owen IN	18119	39.1
+Parke IN	18121	44.1
+Perry IN	18123	45.6
+Pike IN	18125	48.7
+Porter IN	18127	44.8
+Posey IN	18129	44.6
+Pulaski IN	18131	45.4
+Putnam IN	18133	42.1
+Randolph IN	18135	42.5
+Ripley IN	18137	48.2
+Rush IN	18139	42.4
+St Joseph IN	18141	38.4
+St Joseph IN	18141	40.6
+St Joseph IN	26149	38.4
+St Joseph IN	26149	40.6
+Scott IN	18143	36.3
+Shelby IN	18145	41.7
+Spencer IN	18147	49.5
+Starke IN	18149	41.2
+Steuben IN	18151	41.5
+Sullivan IN	18153	44.5
+Switzerland IN	18155	42.5
+Tippecanoe IN	18157	42.4
+Tipton IN	18159	44.1
+Union IN	18161	44.0
+Vanderburgh IN	18163	39.2
+Vermillion IN	18165	42.7
+Vigo IN	18167	40.4
+Warren IN	18171	
+Warrick IN	18173	44.6
+Washington KY	18175	41.4
+Washington KY	18175	44.4
+Washington KY	21229	41.4
+Washington KY	21229	44.4
+Wayne IN	18177	37.4
+Wells IN	18179	45.6
+White IN	18181	45.7
+Whitley IN	18183	44.9
+Adair IA	19001	54.3
+Adams IA	19003	
+Allamakee IA	19005	55.3
+Appanoose IA	19007	48.3
+Audubon IA	19009	55.6
+Benton IA	19011	50.4
+Black Hawk IA	19013	44.1
+Boone IA	19015	47.0
+Bremer IA	19017	55.0
+Buchanan IA	19019	52.8
+Buena Vista IA	19021	52.3
+Butler IA	19023	56.0
+Calhoun IA	19025	54.4
+Carroll IA	19027	59.8
+Cass IA	19029	52.4
+Cedar IA	19031	51.8
+Cerro Gordo IA	19033	48.7
+Cherokee IA	19035	55.1
+Chickasaw IA	19037	57.0
+Clarke IA	19039	49.2
+Clay IA	19041	49.7
+Clayton IA	19043	55.3
+Clinton IA	19045	46.9
+Crawford IA	19047	55.0
+Dallas IA	19049	48.5
+Davis IA	19051	51.1
+Decatur IA	19053	46.4
+Delaware IA	19055	56.3
+Des Moines IA	19057	41.6
+Dickinson IA	19059	51.3
+Dubuque IA	19061	52.7
+Emmet MN	19063	54.0
+Fayette IA	19065	53.9
+Floyd IA	19067	53.4
+Franklin IA	19069	49.3
+Fremont IA	19071	50.5
+Greene IA	19073	48.5
+Grundy IA	19075	54.8
+Guthrie IA	19077	51.0
+Hamilton IA	19079	49.4
+Hardin IA	19083	53.3
+Harrison NE	19085	50.5
+Henry IA	19087	51.9
+Howard IA	19089	58.4
+Humboldt IA	19091	55.2
+Ida IA	19093	55.8
+Iowa IA	19095	54.7
+Jackson IA	19097	51.1
+Jasper IA	19099	48.9
+Jefferson IA	19101	49.3
+Johnson IA	19103	45.9
+Jones IA	19105	51.6
+Keokuk IA	19107	54.4
+Kossuth IA	19109	58.5
+Lee IA	19111	44.7
+Linn IA	19113	45.4
+Louisa IA	19115	48.3
+Lucas IA	19117	51.8
+Lyon IA	19119	60.0
+Madison IA	19121	48.9
+Mahaska IA	19123	50.3
+Marion IA	19125	50.5
+Marshall IA	19127	45.8
+Mills NE	19129	48.8
+Mitchell IA	19131	56.7
+Monona IA	19133	49.2
+Monroe IA	19135	51.9
+Montgomery IA	19137	48.9
+Muscatine IA	19139	45.7
+Obrien IA	19141	54.9
+Osceola MN	19143	56.4
+Page IA	19145	50.5
+Palo Alto IA	19147	54.8
+Plymouth IA	19149	57.3
+Pocahontas IA	19151	58.3
+Polk IA	19153	42.6
+Pottawattamie NE	19155	44.0
+Poweshiek IA	19157	50.8
+Ringgold IA	19159	
+Sac IA	19161	57.2
+Shelby IA	19165	52.9
+Sioux IA	19167	59.4
+Story IA	19169	51.1
+Tama IA	19171	51.1
+Taylor IA	19173	51.9
+Union IA	19175	48.9
+Union IA	19175	52.8
+Union IA	46127	48.9
+Union IA	46127	52.8
+Van Buren IA	19177	50.4
+Wapello IA	19179	44.1
+Warren IA	19181	50.1
+Washington IA	19183	47.0
+Wayne IA	19185	51.2
+Wayne IA	19185	59.6
+Wayne IA	31179	51.2
+Wayne IA	31179	59.6
+Webster IA	19187	44.4
+Winnebago IA	19189	49.8
+Winneshiek IA	19191	58.0
+Woodbury IA	19193	44.5
+Worth IA	19195	47.4
+Wright IA	19197	49.8
+Allen KS	20001	44.7
+Anderson KS	20003	47.3
+Atchison KS	20005	46.1
+Barber KS	20007	56.9
+Barton KS	20009	50.9
+Bourbon MO	20011	44.9
+Brown KS	20013	50.7
+Butler KS	20015	45.2
+Chase KS	20017	
+Chautauqua KS	20019	
+Cherokee MO	20021	43.6
+Cheyenne KS	20023	
+Clark KS	20025	
+Clay KS	20027	50.3
+Cloud KS	20029	51.2
+Coffey KS	20031	47.9
+Comanche KS	20033	
+Cowley KS	20035	44.0
+Crawford MO	20037	44.7
+Crawford MO	20037	42.0
+Crawford MO	29055	44.7
+Crawford MO	29055	42.0
+Decatur KS	20039	
+Dickinson KS	20041	46.1
+Doniphan MO	20043	49.6
+Douglas KS	20045	40.6
+Edwards KS	20047	
+Elk KS	20049	
+Ellis KS	20051	53.1
+Ellsworth KS	20053	54.8
+Finney KS	20055	45.3
+Ford KS	20057	45.3
+Franklin KS	20059	43.0
+Geary KS	20061	37.2
+Gove KS	20063	
+Graham KS	20065	
+Grant KS	20067	47.7
+Gray KS	20069	54.4
+Greeley KS	20071	
+Greenwood KS	20073	48.8
+Hamilton KS	20075	
+Harper KS	20077	50.0
+Harvey KS	20079	46.3
+Haskell KS	20081	
+Hodgeman KS	20083	
+Jackson KS	20085	48.6
+Jefferson KS	20087	49.6
+Jewell KS	20089	
+Johnson MO	20091	46.5
+Johnson MO	20091	42.5
+Johnson MO	29101	46.5
+Johnson MO	29101	42.5
+Kearny KS	20093	
+Kingman KS	20095	52.3
+Kiowa KS	20097	
+Labette KS	20099	44.8
+Lane KS	20101	
+Leavenworth KS	20103	41.1
+Lincoln KS	20105	
+Linn MO	20107	44.5
+Linn MO	20107	48.4
+Linn MO	29115	44.5
+Linn MO	29115	48.4
+Logan KS	20109	
+Lyon KS	20111	45.5
+McPherson KS	20113	49.1
+Marion KS	20115	49.8
+Marshall KS	20117	58.6
+Meade KS	20119	
+Miami MO	20121	47.9
+Mitchell KS	20123	56.9
+Montgomery KS	20125	42.8
+Morris KS	20127	46.7
+Morton OK	20129	
+Nemaha KS	20131	63.8
+Neosho KS	20133	45.1
+Ness KS	20135	
+Norton KS	20137	51.3
+Osage KS	20139	45.5
+Osborne KS	20141	
+Ottawa KS	20143	49.4
+Pawnee KS	20145	47.8
+Phillips KS	20147	54.2
+Pottawatomie KS	20149	50.9
+Pratt KS	20151	49.4
+Rawlins KS	20153	
+Reno KS	20155	44.5
+Republic KS	20157	49.6
+Rice KS	20159	45.6
+Riley KS	20161	43.8
+Rooks KS	20163	49.8
+Rush KS	20165	
+Russell KS	20167	51.5
+Saline KS	20169	42.6
+Scott KS	20171	52.7
+Sedgwick KS	20173	40.1
+Seward KS	20175	45.9
+Shawnee KS	20177	40.3
+Sheridan KS	20179	
+Sherman KS	20181	49.2
+Smith KS	20183	
+Stafford KS	20185	
+Stanton KS	20187	
+Stevens KS	20189	52.4
+Sumner KS	20191	45.3
+Thomas KS	20193	56.8
+Trego KS	20195	
+Wabaunsee KS	20197	48.2
+Wallace KS	20199	
+Washington KS	20201	56.0
+Washington KS	20201	41.5
+Washington KS	40147	56.0
+Washington KS	40147	41.5
+Wichita KS	20203	
+Wilson KS	20205	45.3
+Woodson KS	20207	
+Wyandotte MO	20209	36.0
+Adair KY	21001	41.5
+Allen KY	21003	39.4
+Anderson KY	21005	41.5
+Ballard KY	21007	
+Barren KY	21009	43.2
+Bath KY	21011	39.0
+Bell TN	21013	38.3
+Boone OH	21015	41.9
+Bourbon KY	21017	38.7
+Boyd KY	21019	39.2
+Boyle KY	21021	39.2
+Bracken KY	21023	38.3
+Breathitt KY	21025	36.5
+Breckinridge KY	21027	44.9
+Bullitt KY	21029	42.3
+Butler KY	21031	43.3
+Caldwell KY	21033	42.9
+Calloway KY	21035	41.9
+Campbell OH	21037	39.1
+Carlisle KY	21039	
+Carter KY	21043	41.4
+Casey KY	21045	40.1
+Christian TN	21047	37.9
+Clay KY	21051	37.1
+Clay KY	47027	37.1
+Clinton KY	21053	41.0
+Crittenden KY	21055	47.6
+Cumberland KY	21057	
+Daviess KY	21059	42.4
+Edmonson KY	21061	42.4
+Elliott KY	21063	
+Estill KY	21065	38.9
+Fayette KY	21067	35.6
+Fleming KY	21069	41.4
+Franklin KY	21073	37.6
+Fulton TN	21075	34.5
+Gallatin OH	21077	
+Garrard KY	21079	38.7
+Grant OH	21081	41.5
+Graves TN	21083	42.3
+Grayson KY	21085	43.3
+Green KY	21087	47.6
+Greenup KY	21089	40.8
+Hancock KY	21091	46.0
+Hardin KY	21093	41.4
+Harlan KY	21095	43.0
+Hart KY	21099	39.6
+Henderson KY	21101	39.6
+Henry KY	21103	41.9
+Hickman TN	21105	38.6
+Hickman TN	47081	38.6
+Hopkins KY	21107	43.8
+Jackson KY	21109	41.0
+Jefferson KY	21111	36.0
+Jessamine KY	21113	35.5
+Johnson KY	21115	44.3
+Kenton OH	21117	36.9
+Knott KY	21119	39.9
+Knox KY	21121	38.2
+Larue KY	21123	43.3
+Laurel KY	21125	40.1
+Lawrence KY	21127	41.8
+Lawrence KY	21127	39.6
+Lawrence KY	39087	41.8
+Lawrence KY	39087	39.6
+Lee KY	21129	
+Leslie KY	21131	43.2
+Letcher KY	21133	44.8
+Lewis KY	21135	41.0
+Lincoln KY	21137	39.9
+Livingston KY	21139	41.5
+Logan KY	21141	43.0
+Lyon KY	21143	
+McCracken KY	21145	38.4
+McCreary KY	21147	38.5
+Mclean KY	21149	45.7
+Madison KY	21151	38.1
+Magoffin KY	21153	40.8
+Marion KY	21155	45.9
+Marshall KY	21157	46.0
+Martin KY	21159	44.6
+Mason KY	21161	38.8
+Meade KY	21163	42.7
+Menifee KY	21165	
+Mercer KY	21167	40.3
+Metcalfe KY	21169	41.5
+Monroe KY	21171	44.3
+Montgomery KY	21173	37.4
+Morgan KY	21175	41.1
+Muhlenberg KY	21177	44.0
+Nelson KY	21179	43.0
+Nicholas KY	21181	39.0
+Ohio KY	21183	43.8
+Oldham KY	21185	44.1
+Owen KY	21187	41.2
+Owsley KY	21189	
+Pendleton OH	21191	39.6
+Perry KY	21193	41.4
+Pike KY	21195	43.3
+Powell KY	21197	39.6
+Pulaski KY	21199	38.7
+Robertson KY	21201	
+Rockcastle KY	21203	38.4
+Rowan KY	21205	40.0
+Russell KY	21207	40.7
+Scott KY	21209	37.9
+Scott KY	21209	39.5
+Scott KY	47151	37.9
+Scott KY	47151	39.5
+Shelby KY	21211	40.2
+Simpson KY	21213	40.8
+Spencer KY	21215	42.8
+Taylor KY	21217	41.6
+Todd TN	21219	42.2
+Trigg TN	21221	38.8
+Trimble IN	21223	42.6
+Union KY	21225	46.0
+Warren KY	21227	39.3
+Wayne KY	21231	38.9
+Wayne KY	21231	41.2
+Wayne KY	54099	38.9
+Wayne KY	54099	41.2
+Webster KY	21233	45.4
+Whitley KY	21235	39.8
+Wolfe KY	21237	39.1
+Woodford KY	21239	38.0
+Acadia LA	22001	43.9
+Allen LA	22003	44.6
+Ascension LA	22005	42.1
+Assumption LA	22007	42.8
+Avoyelles LA	22009	42.0
+Beauregard LA	22011	44.9
+Bienville LA	22013	38.5
+Bossier LA	22015	40.4
+Caddo LA	22017	36.3
+Calcasieu LA	22019	41.3
+Caldwell LA	22021	42.1
+Cameron LA	22023	46.2
+Catahoula LA	22025	46.9
+Claiborne LA	22027	40.2
+Concordia MS	22029	39.8
+De Soto LA	22031	39.6
+East Baton Rouge LA	22033	38.1
+East Carroll LA	22035	35.4
+East Feliciana LA	22037	38.1
+Evangeline LA	22039	45.5
+Franklin LA	22041	41.9
+Grant LA	22043	42.4
+Iberia LA	22045	41.4
+Iberville LA	22047	38.7
+Jackson LA	22049	41.8
+Jefferson LA	22051	40.2
+Jefferson Davis LA	22053	44.1
+Lafayette LA	22055	42.1
+Lafourche LA	22057	44.5
+La Salle LA	22059	50.9
+Lincoln LA	22061	39.2
+Livingston LA	22063	42.8
+Madison MS	22065	34.8
+Madison MS	22065	36.1
+Madison MS	28089	34.8
+Madison MS	28089	36.1
+Morehouse LA	22067	36.0
+Natchitoches LA	22069	40.0
+Orleans LA	22071	34.8
+Ouachita LA	22073	36.7
+Plaquemines LA	22075	43.7
+Pointe Coupee LA	22077	40.6
+Rapides LA	22079	39.1
+Red River LA	22081	40.9
+Richland LA	22083	39.1
+Sabine LA	22085	46.6
+St Bernard LA	22087	42.8
+St Charles LA	22089	41.3
+St Helena LA	22091	37.7
+St James LA	22093	39.9
+St John The Baptist LA	22095	38.4
+St Landry LA	22097	43.3
+St Martin LA	22099	41.6
+St Mary LA	22101	41.5
+St Tammany LA	22103	41.2
+Tangipahoa LA	22105	39.2
+Tensas MS	22107	40.2
+Terrebonne LA	22109	45.3
+Union LA	22111	41.5
+Vermilion LA	22113	48.0
+Vernon LA	22115	43.0
+Washington LA	22117	37.7
+Webster LA	22119	40.3
+West Baton Rouge LA	22121	38.9
+West Carroll LA	22123	44.2
+West Feliciana LA	22125	41.8
+Winn LA	22127	41.5
+Androscoggin ME	23001	42.9
+Aroostook ME	23003	43.6
+Cumberland ME	23005	42.9
+Franklin ME	23007	46.1
+Hancock ME	23009	42.2
+Kennebec ME	23011	42.9
+Knox ME	23013	40.8
+Lincoln ME	23015	42.1
+Oxford ME	23017	42.1
+Penobscot ME	23019	42.3
+Piscataquis ME	23021	43.9
+Sagadahoc ME	23023	41.5
+Somerset ME	23025	42.2
+Waldo ME	23027	39.4
+Washington ME	23029	38.9
+York NH	23031	44.7
+Allegany MD	24001	43.2
+Anne Arundel MD	24003	40.8
+Baltimore MD	24005	42.2
+Baltimore MD	24005	42.2
+Calvert DC	24009	43.5
+Caroline MD	24011	39.4
+Carroll MD	24013	47.5
+Cecil DE	24015	41.2
+Charles DC	24017	42.9
+Dorchester MD	24019	37.3
+Frederick DC	24021	45.6
+Garrett MD	24023	45.7
+Harford MD	24025	43.5
+Howard MD	24027	46.9
+Kent MD	24029	40.0
+Montgomery DC	24031	47.7
+Prince Georges DC	24033	40.2
+Queen Annes MD	24035	44.3
+St Marys DC	24037	44.3
+Somerset DE	24039	38.4
+Talbot MD	24041	39.8
+Washington PA	24043	43.1
+Washington PA	24043	47.3
+Washington PA	42125	43.1
+Washington PA	42125	47.3
+Wicomico DE	24045	38.6
+Worcester DE	24047	39.2
+Baltimore City MD	24510	33.8
+Barnstable MA	25001	45.0
+Berkshire MA	25003	42.5
+Bristol RI	25005	44.5
+Bristol RI	25005	45.0
+Bristol RI	44001	44.5
+Bristol RI	44001	45.0
+Dukes MA	25007	43.4
+Essex MA	25009	44.0
+Franklin MA	25011	43.8
+Hampden MA	25013	40.4
+Hampshire MA	25015	45.4
+Middlesex MA	25017	47.5
+Nantucket MA	25019	
+Norfolk MA	25021	49.7
+Plymouth MA	25023	44.6
+Suffolk MA	25025	39.8
+Worcester MA	25027	43.9
+Alcona MI	26001	42.8
+Alger MI	26003	45.7
+Allegan MI	26005	43.0
+Alpena MI	26007	40.0
+Antrim MI	26009	40.5
+Arenac MI	26011	43.4
+Baraga MI	26013	43.4
+Barry MI	26015	42.1
+Bay MI	26017	41.2
+Benzie MI	26019	41.4
+Berrien IN	26021	38.5
+Branch IN	26023	41.9
+Calhoun MI	26025	36.9
+Charlevoix MI	26029	41.6
+Cheboygan MI	26031	41.1
+Chippewa MI	26033	41.3
+Clare MI	26035	41.6
+Clinton MI	26037	45.7
+Crawford MI	26039	39.6
+Delta MI	26041	45.2
+Dickinson MI	26043	44.4
+Eaton MI	26045	42.0
+Emmet MI	26047	43.4
+Genesee MI	26049	35.4
+Gladwin MI	26051	42.5
+Gogebic MI	26053	47.6
+Grand Traverse MI	26055	42.4
+Gratiot MI	26057	42.4
+Hillsdale MI	26059	41.2
+Houghton MI	26061	47.2
+Huron MI	26063	51.8
+Ingham MI	26065	37.5
+Ionia MI	26067	41.5
+Iosco MI	26069	41.0
+Iron MI	26071	45.4
+Iron MI	55051	45.4
+Isabella MI	26073	41.6
+Jackson MI	26075	39.0
+Kalamazoo MI	26077	37.5
+Kalkaska MI	26079	39.1
+Kent MI	26081	38.6
+Keweenaw MI	26083	
+Lake MI	26085	38.4
+Lapeer MI	26087	43.6
+Leelanau MI	26089	43.2
+Lenawee MI	26091	41.5
+Livingston MI	26093	42.4
+Luce MI	26095	
+Mackinac MI	26097	44.0
+Macomb MI	26099	42.9
+Manistee MI	26101	43.4
+Marquette MI	26103	45.4
+Mason MI	26105	41.4
+Mecosta MI	26107	39.2
+Menominee MI	26109	48.4
+Midland MI	26111	41.3
+Missaukee MI	26113	44.2
+Monroe OH	26115	42.7
+Montcalm MI	26117	41.4
+Montmorency MI	26119	46.5
+Muskegon MI	26121	36.9
+Newaygo MI	26123	41.2
+Oakland MI	26125	40.9
+Oceana MI	26127	43.4
+Ogemaw MI	26129	41.5
+Ontonagon MI	26131	44.9
+Osceola MI	26133	43.0
+Oscoda MI	26135	41.9
+Otsego MI	26137	44.9
+Ottawa MI	26139	45.3
+Presque Isle MI	26141	46.7
+Roscommon MI	26143	39.6
+Saginaw MI	26145	37.5
+St Clair MI	26147	40.0
+Sanilac MI	26151	46.0
+Schoolcraft MI	26153	43.5
+Shiawassee MI	26155	41.7
+Tuscola MI	26157	43.2
+Van Buren MI	26159	38.9
+Washtenaw MI	26161	38.9
+Wayne MI	26163	34.6
+Wexford MI	26165	42.2
+Aitkin MN	27001	48.1
+Anoka MN	27003	46.1
+Becker MN	27005	49.2
+Beltrami MN	27007	40.3
+Benton MN	27009	54.7
+Big Stone MN	27011	58.9
+Blue Earth MN	27013	49.4
+Brown MN	27015	56.8
+Carlton MN	27017	45.4
+Carver MN	27019	52.5
+Cass MN	27021	39.4
+Chippewa MN	27023	52.5
+Chisago MN	27025	48.4
+Clay ND	27027	48.1
+Clearwater MN	27029	47.4
+Cook MN	27031	
+Cottonwood MN	27033	54.5
+Crow Wing MN	27035	46.0
+Dakota MN	27037	46.9
+Dodge MN	27039	48.9
+Douglas MN	27041	52.9
+Douglas MN	27041	42.6
+Douglas MN	55031	52.9
+Douglas MN	55031	42.6
+Faribault MN	27043	50.4
+Fillmore MN	27045	55.0
+Freeborn MN	27047	49.2
+Goodhue MN	27049	51.6
+Grant MN	27051	56.9
+Grant MN	27051	52.4
+Grant MN	46051	56.9
+Grant MN	46051	52.4
+Hennepin MN	27053	41.2
+Houston WI	27055	53.9
+Hubbard MN	27057	46.0
+Isanti MN	27059	49.5
+Itasca MN	27061	48.7
+Jackson MN	27063	54.8
+Kanabec MN	27065	48.3
+Kandiyohi MN	27067	49.4
+Kittson ND	27069	56.6
+Koochiching MN	27071	49.0
+Lac Qui Parle MN	27073	56.4
+Lake MN	27075	46.8
+Lake of The Woods MN	27077	
+Le Sueur MN	27079	53.5
+Lincoln MN	27081	58.4
+Lyon MN	27083	53.9
+McLeod MN	27085	51.4
+Mahnomen MN	27087	44.0
+Marshall MN	27089	53.9
+Martin MN	27091	52.5
+Meeker MN	27093	52.1
+Mille Lacs MN	27095	46.7
+Morrison MN	27097	50.1
+Mower MN	27099	49.1
+Murray MN	27101	54.6
+Nicollet MN	27103	49.9
+Nobles MN	27105	53.1
+Norman ND	27107	51.3
+Olmsted MN	27109	47.0
+Otter Tail MN	27111	50.5
+Pennington MN	27113	52.2
+Pine MN	27115	46.5
+Pipestone MN	27117	57.4
+Polk ND	27119	51.5
+Pope MN	27121	56.2
+Ramsey MN	27123	41.9
+Red Lake MN	27125	61.3
+Redwood MN	27127	56.6
+Renville MN	27129	55.7
+Rice MN	27131	47.4
+Rock MN	27133	52.8
+Roseau MN	27135	54.0
+St Louis MN	27137	45.3
+Scott MN	27139	49.8
+Sherburne MN	27141	48.0
+Sibley MN	27143	55.5
+Stearns MN	27145	52.3
+Steele MN	27147	48.2
+Stevens MN	27149	58.6
+Swift MN	27151	54.1
+Todd MN	27153	52.9
+Traverse MN	27155	
+Wabasha MN	27157	53.2
+Wadena MN	27159	53.7
+Waseca MN	27161	50.9
+Washington MN	27163	48.1
+Watonwan MN	27165	49.7
+Wilkin ND	27167	53.0
+Winona WI	27169	50.9
+Wright MN	27171	47.8
+Yellow Medicine MN	27173	53.7
+Adams MS	28001	37.4
+Alcorn MS	28003	37.0
+Amite MS	28005	41.5
+Attala MS	28007	40.2
+Benton MS	28009	
+Bolivar MS	28011	34.2
+Calhoun MS	28013	39.3
+Carroll MS	28015	39.8
+Chickasaw MS	28017	36.5
+Choctaw MS	28019	42.9
+Claiborne MS	28021	33.4
+Clarke MS	28023	40.4
+Clay MS	28025	34.5
+Coahoma MS	28027	33.0
+Copiah MS	28029	36.3
+Covington MS	28031	39.4
+De Soto TN	28033	39.8
+Forrest MS	28035	37.8
+Franklin MS	28037	41.1
+George MS	28039	46.1
+Greene MS	28041	42.2
+Grenada MS	28043	34.7
+Hancock MS	28045	40.1
+Harrison MS	28047	38.1
+Hinds MS	28049	34.3
+Holmes MS	28051	35.6
+Humphreys MS	28053	32.3
+Issaquena MS	28055	
+Itawamba MS	28057	39.7
+Jackson MS	28059	38.5
+Jasper MS	28061	39.1
+Jefferson MS	28063	34.2
+Jefferson Davis MS	28065	37.9
+Jones MS	28067	39.8
+Kemper MS	28069	36.4
+Lafayette MS	28071	37.5
+Lamar MS	28073	43.2
+Lauderdale MS	28075	36.2
+Lawrence MS	28077	41.4
+Leake MS	28079	40.8
+Lee MS	28081	36.0
+Leflore MS	28083	33.7
+Lincoln MS	28085	39.9
+Lowndes MS	28087	35.3
+Marion MS	28091	41.8
+Marshall TN	28093	34.6
+Marshall TN	28093	40.4
+Marshall TN	47117	34.6
+Marshall TN	47117	40.4
+Monroe MS	28095	38.5
+Montgomery MS	28097	39.7
+Neshoba MS	28099	37.1
+Newton MS	28101	38.9
+Noxubee MS	28103	36.7
+Oktibbeha MS	28105	35.9
+Panola MS	28107	33.6
+Pearl River MS	28109	40.3
+Perry MS	28111	43.6
+Pike MS	28113	38.0
+Pontotoc MS	28115	40.8
+Prentiss MS	28117	37.9
+Quitman MS	28119	32.7
+Rankin MS	28121	41.1
+Scott MS	28123	36.6
+Sharkey MS	28125	35.8
+Simpson MS	28127	40.0
+Smith MS	28129	39.8
+Stone MS	28131	42.2
+Sunflower MS	28133	33.4
+Tallahatchie MS	28135	34.0
+Tate TN	28137	36.1
+Tippah MS	28139	40.0
+Tishomingo MS	28141	43.1
+Tunica TN	28143	31.8
+Union MS	28145	40.2
+Walthall MS	28147	39.1
+Warren MS	28149	36.1
+Washington MS	28151	33.2
+Wayne MS	28153	42.3
+Webster MS	28155	40.0
+Wilkinson MS	28157	39.2
+Winston MS	28159	36.2
+Yalobusha MS	28161	36.4
+Yazoo MS	28163	36.1
+Adair MO	29001	45.8
+Andrew MO	29003	46.2
+Atchison MO	29005	49.9
+Audrain MO	29007	43.9
+Barry MO	29009	43.3
+Barton MO	29011	44.9
+Bates MO	29013	45.6
+Benton MO	29015	44.5
+Bollinger MO	29017	43.2
+Boone MO	29019	39.9
+Buchanan MO	29021	39.7
+Butler MO	29023	39.6
+Caldwell MO	29025	47.0
+Callaway MO	29027	41.5
+Camden MO	29029	41.8
+Cape Girardeau MO	29031	41.4
+Carroll MO	29033	46.2
+Carter MO	29035	46.0
+Cass MO	29037	44.9
+Cedar MO	29039	42.3
+Chariton MO	29041	48.9
+Christian MO	29043	44.2
+Clark IA	29045	48.0
+Clay MO	29047	43.6
+Clinton MO	29049	45.2
+Cole MO	29051	43.9
+Cooper MO	29053	44.1
+Dade MO	29057	47.1
+Dallas MO	29059	42.6
+Daviess MO	29061	46.5
+Dekalb MO	29063	48.0
+Dent MO	29065	48.3
+Douglas MO	29067	42.7
+Dunklin AR	29069	40.0
+Franklin MO	29071	44.2
+Gasconade MO	29073	44.1
+Gentry MO	29075	49.7
+Greene MO	29077	41.1
+Grundy MO	29079	43.2
+Harrison MO	29081	47.1
+Henry MO	29083	42.0
+Hickory MO	29085	
+Holt MO	29087	49.1
+Howard MO	29089	45.7
+Howell MO	29091	43.4
+Iron MO	29093	41.6
+Jackson MO	29095	37.3
+Jasper MO	29097	42.2
+Jefferson MO	29099	42.8
+Knox MO	29103	
+Laclede MO	29105	41.9
+Lafayette MO	29107	44.2
+Lawrence MO	29109	43.7
+Lewis IL	29111	48.2
+Lincoln MO	29113	43.6
+Livingston MO	29117	46.6
+Mcdonald AR	29119	41.7
+Macon MO	29121	46.3
+Madison MO	29123	43.1
+Maries MO	29125	44.1
+Mercer MO	29129	
+Miller MO	29131	42.9
+Mississippi MO	29133	38.0
+Moniteau MO	29135	46.3
+Montgomery MO	29139	46.4
+Morgan MO	29141	42.4
+New Madrid MO	29143	38.7
+Newton MO	29145	44.0
+Nodaway MO	29147	51.5
+Oregon MO	29149	46.8
+Osage MO	29151	54.2
+Ozark AR	29153	43.6
+Pemiscot AR	29155	37.5
+Perry MO	29157	46.5
+Pettis MO	29159	43.2
+Phelps MO	29161	41.4
+Platte MO	29165	43.8
+Polk MO	29167	43.4
+Pulaski MO	29169	41.1
+Putnam MO	29171	
+Ralls IL	29173	48.1
+Randolph MO	29175	40.0
+Ray MO	29177	47.0
+Reynolds MO	29179	47.5
+Ripley MO	29181	39.7
+St Charles MO	29183	44.3
+Ste Genevieve MO	29186	45.2
+St Francois MO	29187	40.5
+St Louis MO	29189	39.1
+Saline MO	29195	43.1
+Schuyler MO	29197	
+Scotland MO	29199	
+Scott MO	29201	41.8
+Shannon MO	29203	42.7
+Shelby MO	29205	54.8
+Stoddard MO	29207	44.4
+Stone MO	29209	43.3
+Sullivan MO	29211	46.5
+Taney MO	29213	40.2
+Texas MO	29215	43.7
+Vernon MO	29217	43.6
+Warren MO	29219	41.8
+Washington MO	29221	41.0
+Wayne MO	29223	43.6
+Webster MO	29225	41.2
+Worth MO	29227	
+Wright MO	29229	43.0
+St Louis City MO	29510	32.2
+Beaverhead MT	30001	51.2
+Big Horn WY	30003	33.9
+Big Horn WY	30003	53.2
+Big Horn WY	56003	33.9
+Big Horn WY	56003	53.2
+Blaine MT	30005	39.9
+Broadwater MT	30007	
+Carbon MT	30009	49.9
+Carter SD	30011	
+Cascade MT	30013	45.8
+Chouteau MT	30015	51.8
+Custer MT	30017	50.8
+Daniels MT	30019	
+Dawson MT	30021	56.1
+Deer Lodge MT	30023	45.2
+Fallon MT	30025	
+Fergus MT	30027	50.3
+Flathead MT	30029	45.1
+Gallatin MT	30031	47.0
+Garfield MT	30033	
+Glacier MT	30035	34.4
+Golden Valley MT	30037	
+Golden Valley MT	38033	
+Granite MT	30039	
+Hill MT	30041	42.9
+Jefferson MT	30043	49.1
+Judith Basin MT	30045	
+Lake MT	30047	41.8
+Lewis and Clark MT	30049	44.7
+Liberty MT	30051	
+Lincoln MT	30053	47.7
+McCone MT	30055	
+Madison MT	30057	
+Meagher MT	30059	
+Mineral MT	30061	
+Missoula MT	30063	44.0
+Musselshell MT	30065	
+Park MT	30067	45.2
+Petroleum MT	30069	
+Phillips MT	30071	51.6
+Pondera MT	30073	50.4
+Powder River MT	30075	
+Powell MT	30077	45.8
+Prairie MT	30079	
+Ravalli MT	30081	47.7
+Richland ND	30083	58.9
+Richland ND	30083	56.2
+Richland ND	38077	58.9
+Richland ND	38077	56.2
+Roosevelt MT	30085	42.4
+Rosebud MT	30087	40.5
+Sanders MT	30089	48.3
+Sheridan MT	30091	
+Silver Bow MT	30093	47.5
+Stillwater MT	30095	52.6
+Sweet Grass MT	30097	
+Teton MT	30099	52.5
+Toole MT	30101	
+Treasure MT	30103	
+Valley MT	30105	50.7
+Wheatland MT	30107	
+Wibaux MT	30109	
+Yellowstone MT	30111	46.9
+Adams NE	31001	49.7
+Antelope NE	31003	53.4
+Arthur NE	31005	
+Banner NE	31007	
+Blaine NE	31009	
+Boone NE	31011	61.3
+Box Butte NE	31013	51.6
+Boyd NE	31015	
+Brown NE	31017	
+Buffalo NE	31019	51.0
+Burt NE	31021	50.8
+Butler NE	31023	55.1
+Cass NE	31025	49.5
+Cedar SD	31027	63.2
+Chase NE	31029	
+Cherry NE	31031	50.4
+Cheyenne WY	31033	50.8
+Clay NE	31035	55.9
+Colfax NE	31037	55.4
+Cuming NE	31039	56.9
+Custer NE	31041	54.6
+Dakota IA	31043	49.2
+Dawes NE	31045	53.8
+Dawson NE	31047	49.3
+Deuel NE	31049	
+Dixon IA	31051	52.9
+Dodge NE	31053	51.0
+Douglas NE	31055	40.0
+Dundy KS	31057	
+Fillmore NE	31059	56.8
+Franklin NE	31061	
+Frontier NE	31063	
+Furnas NE	31065	55.3
+Gage NE	31067	49.0
+Garden NE	31069	
+Garfield NE	31071	
+Gosper NE	31073	
+Grant NE	31075	
+Greeley NE	31077	
+Hall NE	31079	48.5
+Hamilton NE	31081	52.6
+Harlan NE	31083	
+Hayes NE	31085	
+Hitchcock NE	31087	
+Holt NE	31089	57.7
+Hooker NE	31091	
+Howard NE	31093	55.7
+Jefferson NE	31095	55.0
+Johnson NE	31097	
+Kearney NE	31099	52.2
+Keith NE	31101	51.9
+Keya Paha NE	31103	
+Kimball WY	31105	
+Knox SD	31107	58.9
+Lancaster NE	31109	42.4
+Lincoln NE	31111	47.5
+Logan NE	31113	
+Loup NE	31115	
+McPherson NE	31117	
+Madison NE	31119	50.8
+Merrick NE	31121	51.4
+Morrill NE	31123	56.1
+Nance NE	31125	
+Nemaha NE	31127	55.7
+Nuckolls NE	31129	
+Otoe NE	31131	49.9
+Pawnee NE	31133	
+Perkins NE	31135	
+Phelps NE	31137	50.8
+Pierce NE	31139	57.2
+Platte NE	31141	54.3
+Polk NE	31143	
+Red Willow NE	31145	51.7
+Richardson NE	31147	51.7
+Rock NE	31149	
+Saline NE	31151	55.0
+Sarpy NE	31153	45.2
+Saunders NE	31155	51.3
+Scotts Bluff NE	31157	47.0
+Seward NE	31159	52.9
+Sheridan SD	31161	52.6
+Sherman NE	31163	
+Sioux NE	31165	
+Stanton NE	31167	
+Thayer NE	31169	59.4
+Thomas NE	31171	
+Thurston NE	31173	35.6
+Valley NE	31175	
+Washington NE	31177	53.3
+Webster NE	31181	
+Wheeler NE	31183	
+York NE	31185	53.7
+Churchill NV	32001	43.9
+Clark NV	32003	39.9
+Douglas CA	32005	43.0
+Elko NV	32007	46.3
+Esmeralda NV	32009	
+Eureka NV	32011	
+Humboldt NV	32013	46.4
+Lander NV	32015	48.2
+Lincoln NV	32017	
+Lyon NV	32019	41.1
+Mineral NV	32021	
+Nye NV	32023	41.6
+Pershing NV	32027	
+Storey NV	32029	
+Washoe NV	32031	41.1
+White Pine NV	32033	48.1
+Carson City NV	32510	41.9
+Belknap NH	33001	44.7
+Carroll NH	33003	44.7
+Cheshire NH	33005	42.2
+Coos VT	33007	45.7
+Grafton VT	33009	43.7
+Hillsborough NH	33011	44.2
+Merrimack NH	33013	43.2
+Rockingham NH	33015	45.0
+Strafford NH	33017	43.1
+Sullivan VT	33019	41.8
+Atlantic PA	34001	38.9
+Bergen NJ	34003	52.4
+Burlington PA	34005	44.0
+Camden PA	34007	39.9
+Cape May PA	34009	42.7
+Cumberland PA	34011	39.1
+Cumberland PA	34011	46.3
+Cumberland PA	42041	39.1
+Cumberland PA	42041	46.3
+Essex NJ	34013	38.7
+Gloucester PA	34015	43.7
+Hudson NJ	34017	44.1
+Hunterdon NJ	34019	51.2
+Mercer NJ	34021	39.4
+Middlesex NJ	34023	47.0
+Monmouth NJ	34025	45.1
+Morris NJ	34027	49.5
+Ocean NJ	34029	45.6
+Passaic NJ	34031	42.3
+Salem PA	34033	42.3
+Somerset NJ	34035	46.7
+Sussex NJ	34037	47.8
+Union NJ	34039	43.8
+Warren NJ	34041	47.1
+Bernalillo NM	35001	39.6
+Catron NM	35003	
+Chaves NM	35005	41.2
+Cibola NM	35006	36.5
+Colfax NM	35007	44.7
+Curry NM	35009	43.1
+De Baca NM	35011	
+Dona Ana TX	35013	41.3
+Eddy NM	35015	47.9
+Grant NM	35017	41.3
+Guadalupe NM	35019	
+Harding NM	35021	
+Hidalgo NM	35023	42.2
+Lea NM	35025	48.6
+Lincoln NM	35027	44.2
+Los Alamos NM	35028	49.2
+Luna NM	35029	41.4
+Mckinley AZ	35031	32.1
+Mora NM	35033	
+Otero NM	35035	41.5
+Quay NM	35037	43.2
+Rio Arriba NM	35039	38.8
+Roosevelt NM	35041	42.4
+Sandoval NM	35043	38.1
+San Miguel NM	35047	40.1
+Santa Fe NM	35049	40.5
+Sierra NM	35051	40.8
+Socorro NM	35053	39.9
+Taos NM	35055	39.8
+Torrance NM	35057	41.6
+Union NM	35059	
+Valencia NM	35061	39.0
+Albany NY	36001	42.3
+Allegany NY	36003	43.9
+Bronx NY	36005	38.5
+Broome NY	36007	42.9
+Cattaraugus NY	36009	44.2
+Cayuga NY	36011	43.3
+Chautauqua PA	36013	42.6
+Chemung NY	36015	41.0
+Chenango NY	36017	43.3
+Clinton NY	36019	44.2
+Columbia NY	36021	42.0
+Cortland NY	36023	43.6
+Delaware NY	36025	45.5
+Dutchess NY	36027	43.0
+Erie NY	36029	42.6
+Essex NY	36031	45.9
+Franklin NY	36033	41.5
+Fulton NY	36035	42.9
+Genesee NY	36037	44.6
+Greene NY	36039	45.2
+Hamilton NY	36041	
+Herkimer NY	36043	45.0
+Jefferson NY	36045	43.2
+Kings NY	36047	41.8
+Lewis NY	36049	50.2
+Livingston NY	36051	45.6
+Madison NY	36053	44.0
+Monroe NY	36055	39.3
+Montgomery NY	36057	43.6
+Nassau NY	36059	49.7
+New York NY	36061	40.7
+Niagara NY	36063	41.5
+Oneida NY	36065	43.4
+Onondaga NY	36067	40.3
+Ontario NY	36069	43.9
+Orange NY	36071	42.3
+Orleans NY	36073	44.8
+Oswego NY	36075	42.9
+Otsego NY	36077	45.4
+Putnam NY	36079	51.5
+Queens NY	36081	46.8
+Rensselaer NY	36083	42.8
+Richmond NY	36085	46.5
+Rockland NJ	36087	44.5
+St Lawrence NY	36089	44.7
+Saratoga NY	36091	45.5
+Schenectady NY	36093	41.5
+Schoharie NY	36095	45.4
+Schuyler NY	36097	44.3
+Seneca NY	36099	45.4
+Steuben NY	36101	45.1
+Suffolk NY	36103	47.2
+Sullivan NY	36105	42.3
+Tioga NY	36107	41.6
+Tioga NY	36107	49.1
+Tioga NY	42117	41.6
+Tioga NY	42117	49.1
+Tompkins NY	36109	43.3
+Ulster NY	36111	42.6
+Warren NY	36113	43.2
+Washington NY	36115	43.5
+Wayne NY	36117	42.0
+Westchester NY	36119	45.0
+Wyoming NY	36121	47.5
+Yates NY	36123	45.6
+Alamance NC	37001	36.5
+Alexander NC	37003	37.7
+Alleghany VA	37005	41.6
+Alleghany VA	51005	41.6
+Anson NC	37007	33.6
+Ashe NC	37009	37.5
+Avery NC	37011	40.3
+Beaufort NC	37013	37.4
+Bertie NC	37015	37.4
+Bladen NC	37017	36.3
+Brunswick NC	37019	36.1
+Buncombe NC	37021	38.2
+Burke NC	37023	36.2
+Cabarrus NC	37025	35.7
+Caldwell NC	37027	34.7
+Camden VA	37029	37.5
+Carteret NC	37031	39.7
+Caswell NC	37033	36.7
+Catawba NC	37035	36.0
+Chatham NC	37037	38.7
+Cherokee NC	37039	39.8
+Chowan VA	37041	37.9
+Clay NC	37043	41.9
+Cleveland NC	37045	35.2
+Columbus NC	37047	35.5
+Craven NC	37049	36.9
+Cumberland NC	37051	35.9
+Currituck VA	37053	38.3
+Dare NC	37055	39.7
+Davidson NC	37057	36.2
+Davie NC	37059	40.0
+Duplin NC	37061	38.8
+Durham NC	37063	33.6
+Edgecombe NC	37065	33.1
+Forsyth NC	37067	35.0
+Franklin NC	37069	34.9
+Gaston NC	37071	34.7
+Gates VA	37073	37.7
+Graham NC	37075	43.0
+Granville NC	37077	37.4
+Greene NC	37079	35.8
+Guilford NC	37081	35.4
+Halifax NC	37083	34.9
+Harnett NC	37085	36.3
+Haywood NC	37087	40.2
+Henderson NC	37089	39.9
+Hertford NC	37091	35.2
+Hoke NC	37093	32.5
+Hyde NC	37095	
+Iredell NC	37097	35.2
+Jackson NC	37099	40.8
+Johnston NC	37101	38.1
+Jones NC	37103	38.8
+Lee NC	37105	36.8
+Lenoir NC	37107	36.5
+Lincoln NC	37109	37.6
+McDowell NC	37111	37.8
+Macon NC	37113	42.7
+Madison NC	37115	40.0
+Martin NC	37117	36.5
+Mecklenburg NC	37119	35.0
+Mitchell NC	37121	41.2
+Montgomery NC	37123	35.9
+Moore NC	37125	36.8
+Nash NC	37127	36.7
+New Hanover NC	37129	35.8
+Northampton NC	37131	36.0
+Onslow NC	37133	39.0
+Orange NC	37135	36.9
+Pamlico NC	37137	38.3
+Pasquotank VA	37139	36.2
+Pender NC	37141	36.3
+Perquimans VA	37143	39.4
+Person NC	37145	37.1
+Pitt NC	37147	35.2
+Polk SC	37149	38.2
+Randolph NC	37151	39.1
+Richmond NC	37153	34.4
+Robeson NC	37155	33.0
+Rockingham NC	37157	36.5
+Rowan NC	37159	35.1
+Rutherford NC	37161	36.0
+Sampson NC	37163	36.8
+Scotland NC	37165	32.9
+Stanly NC	37167	39.6
+Stokes NC	37169	38.0
+Surry NC	37171	40.1
+Swain NC	37173	39.5
+Transylvania NC	37175	39.5
+Tyrrell NC	37177	
+Vance NC	37181	32.7
+Wake NC	37183	38.4
+Warren NC	37185	36.0
+Washington NC	37187	36.6
+Watauga NC	37189	43.0
+Wayne NC	37191	37.6
+Wilkes NC	37193	38.7
+Wilson NC	37195	35.4
+Yadkin NC	37197	40.5
+Yancey NC	37199	39.6
+Adams ND	38001	
+Barnes ND	38003	58.0
+Benson ND	38005	41.4
+Billings ND	38007	
+Bottineau ND	38009	62.2
+Bowman ND	38011	
+Burke ND	38013	
+Burleigh ND	38015	52.3
+Cass ND	38017	49.9
+Cavalier ND	38019	
+Dickey ND	38021	
+Divide ND	38023	
+Dunn ND	38025	
+Eddy ND	38027	
+Emmons ND	38029	
+Foster ND	38031	
+Grand Forks ND	38035	49.3
+Grant ND	38037	
+Griggs ND	38039	
+Hettinger ND	38041	
+Kidder ND	38043	
+Lamoure ND	38045	
+Logan ND	38047	
+McHenry ND	38049	59.6
+McIntosh ND	38051	
+Mckenzie ND	38053	
+Mclean ND	38055	54.3
+Mercer ND	38057	59.8
+Morton ND	38059	55.9
+Mountrail ND	38061	50.7
+Nelson ND	38063	
+Oliver ND	38065	
+Pembina ND	38067	55.6
+Pierce ND	38069	
+Ramsey ND	38071	51.4
+Ransom ND	38073	58.9
+Renville ND	38075	
+Rolette ND	38079	37.6
+Sargent ND	38081	
+Sheridan ND	38083	
+Sioux SD	38085	
+Slope ND	38087	
+Stark ND	38089	63.6
+Steele ND	38091	
+Stutsman ND	38093	53.5
+Towner ND	38095	
+Traill ND	38097	55.0
+Walsh ND	38099	56.4
+Ward ND	38101	54.1
+Wells ND	38103	
+Williams ND	38105	61.6
+Adams OH	39001	40.5
+Allen OH	39003	39.3
+Ashland OH	39005	44.7
+Ashtabula OH	39007	40.6
+Athens OH	39009	39.0
+Auglaize OH	39011	47.3
+Belmont WV	39013	45.7
+Brown OH	39015	41.5
+Butler OH	39017	38.6
+Carroll OH	39019	43.6
+Champaign OH	39021	41.0
+Clark OH	39023	36.5
+Clermont OH	39025	40.7
+Clinton OH	39027	39.0
+Columbiana OH	39029	42.9
+Coshocton OH	39031	38.7
+Crawford OH	39033	40.6
+Cuyahoga OH	39035	36.4
+Darke OH	39037	46.6
+Defiance OH	39039	41.2
+Delaware OH	39041	40.9
+Erie OH	39043	40.3
+Fairfield OH	39045	41.2
+Fayette OH	39047	37.5
+Franklin OH	39049	36.0
+Fulton OH	39051	46.7
+Gallia OH	39053	39.1
+Geauga OH	39055	46.3
+Greene OH	39057	38.9
+Guernsey OH	39059	42.4
+Hamilton OH	39061	35.7
+Hancock OH	39063	43.1
+Hancock OH	39063	40.5
+Hancock OH	54029	43.1
+Hancock OH	54029	40.5
+Hardin OH	39065	43.3
+Harrison OH	39067	45.1
+Henry OH	39069	47.3
+Highland OH	39071	39.0
+Hocking OH	39073	40.0
+Holmes OH	39075	46.6
+Huron OH	39077	43.4
+Jackson OH	39079	39.1
+Jefferson OH	39081	40.8
+Knox OH	39083	44.3
+Lake OH	39085	43.4
+Licking OH	39089	39.9
+Logan OH	39091	41.0
+Lorain OH	39093	38.3
+Lucas OH	39095	35.9
+Madison OH	39097	39.4
+Mahoning OH	39099	40.3
+Marion OH	39101	39.2
+Medina OH	39103	44.8
+Meigs OH	39105	43.8
+Mercer OH	39107	51.5
+Mercer OH	39107	43.2
+Mercer OH	42085	51.5
+Mercer OH	42085	43.2
+Miami OH	39109	42.6
+Monroe WV	39111	49.0
+Montgomery OH	39113	35.8
+Morgan OH	39115	41.7
+Morrow OH	39117	40.7
+Muskingum OH	39119	40.2
+Noble OH	39121	49.0
+Ottawa OH	39123	44.6
+Paulding OH	39125	43.8
+Perry OH	39127	39.6
+Pickaway OH	39129	38.0
+Pike OH	39131	38.5
+Portage OH	39133	42.5
+Preble OH	39135	42.2
+Putnam OH	39137	51.1
+Richland OH	39139	39.4
+Ross OH	39141	37.2
+Sandusky OH	39143	42.5
+Scioto OH	39145	38.6
+Seneca OH	39147	44.3
+Shelby OH	39149	42.5
+Stark OH	39151	39.8
+Summit OH	39153	37.9
+Trumbull OH	39155	39.2
+Tuscarawas OH	39157	45.1
+Union OH	39159	42.4
+Van Wert OH	39161	42.6
+Vinton OH	39163	39.3
+Warren OH	39165	43.4
+Washington WV	39167	43.3
+Wayne OH	39169	43.3
+Williams OH	39171	45.9
+Wood OH	39173	43.4
+Wyandot OH	39175	48.9
+Adair OK	40001	39.6
+Alfalfa OK	40003	
+Atoka OK	40005	45.0
+Beaver KS	40007	54.0
+Beckham OK	40009	52.1
+Blaine OK	40011	49.1
+Bryan TX	40013	41.2
+Caddo OK	40015	43.9
+Canadian OK	40017	46.9
+Carter OK	40019	44.3
+Cherokee OK	40021	40.7
+Choctaw OK	40023	41.5
+Cimarron OK	40025	
+Cleveland OK	40027	44.7
+Coal OK	40029	
+Comanche OK	40031	41.8
+Cotton OK	40033	47.4
+Craig OK	40035	44.9
+Creek OK	40037	42.9
+Custer OK	40039	49.2
+Delaware AR	40041	41.8
+Dewey OK	40043	60.1
+Ellis OK	40045	
+Garfield OK	40047	46.4
+Garvin OK	40049	48.2
+Grady OK	40051	47.1
+Grant OK	40053	
+Greer OK	40055	
+Harmon OK	40057	
+Harper OK	40059	
+Haskell AR	40061	47.1
+Hughes OK	40063	45.6
+Jackson OK	40065	45.0
+Jefferson OK	40067	50.3
+Johnston OK	40069	46.9
+Kay OK	40071	44.2
+Kingfisher OK	40073	50.5
+Kiowa OK	40075	45.7
+Latimer AR	40077	45.6
+Le Flore AR	40079	45.8
+Lincoln OK	40081	45.8
+Logan OK	40083	43.7
+Love OK	40085	47.2
+Mcclain OK	40087	47.2
+McCurtain OK	40089	42.0
+McIntosh OK	40091	42.1
+Major OK	40093	56.2
+Marshall OK	40095	46.1
+Mayes OK	40097	43.1
+Murray OK	40099	46.4
+Muskogee OK	40101	41.3
+Noble OK	40103	45.2
+Nowata KS	40105	46.3
+Okfuskee OK	40107	42.9
+Oklahoma OK	40109	40.4
+Okmulgee OK	40111	41.8
+Osage OK	40113	41.2
+Ottawa MO	40115	42.3
+Pawnee OK	40117	47.5
+Payne OK	40119	46.0
+Pittsburg AR	40121	43.0
+Pontotoc OK	40123	45.1
+Pottawatomie OK	40125	41.6
+Pushmataha OK	40127	45.3
+Roger Mills OK	40129	
+Rogers OK	40131	44.7
+Seminole OK	40133	41.6
+Sequoyah AR	40135	42.7
+Stephens OK	40137	47.9
+Texas OK	40139	49.0
+Tillman OK	40141	45.6
+Tulsa OK	40143	40.0
+Wagoner OK	40145	44.5
+Washita OK	40149	51.0
+Woods OK	40151	52.7
+Woodward OK	40153	50.5
+Baker OR	41001	46.2
+Benton OR	41003	42.1
+Clackamas OR	41005	43.2
+Clatsop WA	41007	42.7
+Columbia OR	41009	42.4
+Coos OR	41011	41.2
+Crook OR	41013	43.6
+Curry CA	41015	40.8
+Deschutes OR	41017	42.2
+Douglas OR	41019	40.6
+Gilliam OR	41021	
+Grant OR	41023	49.7
+Harney OR	41025	44.0
+Hood River OR	41027	45.6
+Jackson OR	41029	41.0
+Jefferson OR	41031	35.6
+Josephine OR	41033	40.7
+Klamath CA	41035	41.4
+Lake OR	41037	47.9
+Lane OR	41039	39.7
+Lincoln OR	41041	40.7
+Linn OR	41043	39.5
+Malheur OR	41045	43.8
+Marion OR	41047	40.9
+Morrow WA	41049	44.3
+Multnomah OR	41051	39.1
+Polk OR	41053	41.5
+Sherman OR	41055	
+Tillamook OR	41057	41.9
+Umatilla WA	41059	42.8
+Union OR	41061	44.9
+Wallowa OR	41063	47.7
+Wasco OR	41065	43.2
+Wheeler OR	41069	
+Yamhill OR	41071	41.6
+Adams PA	42001	48.6
+Allegheny PA	42003	42.8
+Armstrong PA	42005	49.1
+Beaver PA	42007	44.7
+Bedford PA	42009	48.0
+Berks PA	42011	44.3
+Blair PA	42013	43.9
+Bradford PA	42015	49.1
+Bucks PA	42017	47.2
+Butler PA	42019	48.6
+Cambria PA	42021	48.7
+Cameron PA	42023	45.9
+Carbon PA	42025	48.1
+Centre PA	42027	47.3
+Chester PA	42029	46.1
+Clarion PA	42031	50.8
+Clearfield PA	42033	47.0
+Clinton PA	42035	47.5
+Columbia PA	42037	46.7
+Crawford PA	42039	45.1
+Dauphin PA	42043	40.1
+Delaware PA	42045	43.8
+Elk PA	42047	48.7
+Erie PA	42049	42.2
+Fayette PA	42051	44.7
+Forest PA	42053	
+Franklin PA	42055	46.2
+Fulton PA	42057	47.2
+Greene PA	42059	49.8
+Huntingdon PA	42061	46.9
+Indiana PA	42063	51.4
+Jefferson PA	42065	48.9
+Jefferson PA	42065	39.3
+Jefferson PA	54037	48.9
+Jefferson PA	54037	39.3
+Juniata PA	42067	49.5
+Lackawanna PA	42069	45.8
+Lancaster PA	42071	44.7
+Lawrence OH	42073	44.4
+Lebanon PA	42075	46.7
+Lehigh PA	42077	43.9
+Luzerne PA	42079	45.9
+Lycoming PA	42081	45.4
+McKean NY	42083	45.7
+Mifflin PA	42087	43.1
+Monroe PA	42089	44.3
+Montgomery PA	42091	47.0
+Montour PA	42093	43.9
+Northampton PA	42095	45.0
+Northumberland PA	42097	48.5
+Perry PA	42099	46.2
+Philadelphia PA	42101	37.1
+Pike PA	42103	44.8
+Potter NY	42105	50.8
+Schuylkill PA	42107	49.1
+Snyder PA	42109	47.3
+Somerset PA	42111	48.7
+Sullivan PA	42113	
+Susquehanna NY	42115	49.0
+Union PA	42119	48.8
+Venango PA	42121	44.9
+Warren PA	42123	44.4
+Wayne PA	42127	48.1
+Westmoreland PA	42129	47.2
+Wyoming PA	42131	47.5
+York PA	42133	44.2
+Kent RI	44003	44.7
+Newport RI	44005	41.3
+Providence RI	44007	42.3
+Washington RI	44009	44.0
+Abbeville SC	45001	36.9
+Aiken GA	45003	37.5
+Allendale SC	45005	32.5
+Anderson SC	45007	36.9
+Bamberg SC	45009	35.0
+Barnwell SC	45011	35.0
+Beaufort GA	45013	36.7
+Berkeley SC	45015	39.0
+Calhoun SC	45017	36.0
+Charleston SC	45019	36.7
+Cherokee SC	45021	34.5
+Chester NC	45023	34.9
+Chesterfield SC	45025	35.7
+Clarendon SC	45027	36.2
+Colleton SC	45029	36.2
+Darlington SC	45031	35.3
+Dillon SC	45033	34.6
+Dorchester SC	45035	39.3
+Edgefield GA	45037	34.9
+Fairfield SC	45039	32.7
+Florence SC	45041	36.2
+Georgetown SC	45043	35.8
+Greenville SC	45045	37.0
+Greenwood SC	45047	35.0
+Hampton SC	45049	36.3
+Horry SC	45051	36.7
+Kershaw SC	45055	37.9
+Lancaster NC	45057	35.4
+Laurens SC	45059	36.0
+Lee SC	45061	34.3
+Lexington SC	45063	39.3
+McCormick SC	45065	34.0
+Marion SC	45067	34.6
+Marlboro SC	45069	33.8
+Newberry SC	45071	37.3
+Oconee SC	45073	39.9
+Orangeburg SC	45075	35.3
+Pickens SC	45077	38.7
+Richland SC	45079	34.4
+Saluda SC	45081	36.5
+Spartanburg SC	45083	37.0
+Sumter SC	45085	36.4
+Union SC	45087	34.5
+Williamsburg SC	45089	36.5
+York NC	45091	36.9
+Aurora SD	46003	
+Beadle SD	46005	51.7
+Bennett SD	46007	
+Bon Homme SD	46009	56.3
+Brookings SD	46011	52.5
+Brown SD	46013	51.4
+Brule SD	46015	50.0
+Buffalo SD	46017	
+Butte SD	46019	51.0
+Campbell SD	46021	
+Charles Mix SD	46023	43.8
+Clark SD	46025	
+Clay SD	46027	49.0
+Codington SD	46029	51.1
+Corson SD	46031	
+Custer SD	46033	46.1
+Davison SD	46035	51.1
+Day SD	46037	54.4
+Deuel SD	46039	
+Dewey SD	46041	35.8
+Douglas SD	46043	
+Edmunds SD	46045	
+Fall River SD	46047	48.1
+Faulk SD	46049	
+Gregory SD	46053	54.2
+Haakon SD	46055	
+Hamlin SD	46057	59.9
+Hand SD	46059	
+Hanson SD	46061	
+Harding SD	46063	
+Hughes SD	46065	45.0
+Hutchinson SD	46067	60.2
+Hyde SD	46069	
+Jackson SD	46071	
+Jerauld SD	46073	
+Jones SD	46075	
+Kingsbury SD	46077	58.8
+Lake SD	46079	52.7
+Lawrence SD	46081	49.6
+Lincoln SD	46083	51.8
+Lyman SD	46085	
+McCook SD	46087	57.2
+McPherson SD	46089	
+Marshall SD	46091	
+Meade SD	46093	47.5
+Mellette SD	46095	
+Miner SD	46097	
+Minnehaha SD	46099	47.8
+Moody SD	46101	50.6
+Pennington SD	46103	43.3
+Perkins ND	46105	
+Potter SD	46107	
+Roberts SD	46109	43.1
+Sanborn SD	46111	
+Shannon SD	46113	23.7
+Spink SD	46115	57.9
+Stanley SD	46117	
+Sully SD	46119	
+Todd SD	46121	24.3
+Tripp SD	46123	50.7
+Turner SD	46125	55.6
+Walworth SD	46129	46.7
+Yankton SD	46135	52.7
+Ziebach SD	46137	
+Anderson TN	47001	39.2
+Bedford TN	47003	37.3
+Benton TN	47005	39.2
+Bledsoe TN	47007	42.8
+Blount TN	47009	38.3
+Bradley TN	47011	39.4
+Campbell TN	47013	38.3
+Cannon TN	47015	44.2
+Carroll TN	47017	40.0
+Carter TN	47019	37.9
+Cheatham TN	47021	39.4
+Chester TN	47023	43.0
+Claiborne TN	47025	39.8
+Cocke TN	47029	36.9
+Coffee TN	47031	40.2
+Crockett TN	47033	38.8
+Cumberland TN	47035	41.1
+Davidson TN	47037	35.5
+Decatur TN	47039	45.0
+Dekalb TN	47041	39.9
+Dickson TN	47043	40.5
+Dyer TN	47045	39.0
+Fayette TN	47047	34.5
+Fentress TN	47049	39.1
+Franklin TN	47051	39.4
+Gibson TN	47053	38.3
+Giles TN	47055	43.0
+Grainger TN	47057	39.7
+Greene TN	47059	38.5
+Grundy TN	47061	38.4
+Hamblen TN	47063	38.2
+Hamilton TN	47065	37.0
+Hancock TN	47067	
+Hardeman TN	47069	37.0
+Hardin MS	47071	39.3
+Hawkins TN	47073	37.7
+Haywood TN	47075	34.1
+Henderson TN	47077	40.1
+Henry TN	47079	39.2
+Houston TN	47083	43.2
+Humphreys TN	47085	39.1
+Jackson TN	47087	40.1
+Jefferson TN	47089	38.6
+Johnson NC	47091	36.2
+Knox TN	47093	37.0
+Lake TN	47095	
+Lauderdale TN	47097	36.2
+Lewis TN	47101	42.3
+Lincoln AL	47103	43.1
+Loudon TN	47105	39.3
+McMinn TN	47107	39.4
+McNairy MS	47109	39.4
+Macon TN	47111	43.2
+Madison TN	47113	35.8
+Marion TN	47115	40.5
+Maury TN	47119	37.2
+Meigs TN	47121	38.9
+Monroe TN	47123	38.9
+Montgomery TN	47125	39.0
+Moore TN	47127	
+Morgan TN	47129	39.3
+Obion TN	47131	36.9
+Overton TN	47133	42.1
+Perry TN	47135	37.5
+Pickett TN	47137	
+Polk TN	47139	39.0
+Putnam TN	47141	40.7
+Rhea TN	47143	40.4
+Roane TN	47145	37.7
+Robertson TN	47147	40.7
+Rutherford TN	47149	39.5
+Sequatchie TN	47153	40.3
+Sevier TN	47155	37.0
+Shelby TN	47157	33.0
+Smith TN	47159	42.5
+Stewart TN	47161	44.0
+Sullivan TN	47163	37.7
+Sumner TN	47165	41.0
+Tipton TN	47167	37.0
+Trousdale TN	47169	40.5
+Unicoi TN	47171	38.4
+Union TN	47173	38.9
+Van Buren TN	47175	
+Warren TN	47177	39.1
+Washington TN	47179	37.0
+Washington TN	47179	42.1
+Washington TN	51191	37.0
+Washington TN	51191	42.1
+Wayne AL	47181	45.3
+Weakley TN	47183	40.8
+White TN	47185	39.6
+Williamson TN	47187	42.4
+Wilson TN	47189	41.3
+Anderson TX	48001	42.4
+Andrews TX	48003	57.2
+Angelina TX	48005	42.2
+Aransas TX	48007	45.8
+Archer TX	48009	50.0
+Armstrong TX	48011	
+Atascosa TX	48013	46.0
+Austin TX	48015	46.1
+Bailey TX	48017	48.1
+Bandera TX	48019	47.0
+Bastrop TX	48021	41.7
+Baylor TX	48023	
+Bee TX	48025	44.4
+Bell TX	48027	39.6
+Bexar TX	48029	40.4
+Blanco TX	48031	48.3
+Borden TX	48033	
+Bosque TX	48035	44.8
+Bowie TX	48037	39.1
+Brazoria TX	48039	45.4
+Brazos TX	48041	41.1
+Brewster TX	48043	48.7
+Briscoe TX	48045	
+Brooks TX	48047	46.9
+Brown TX	48049	44.0
+Burleson TX	48051	44.4
+Burnet TX	48053	43.2
+Caldwell TX	48055	41.1
+Calhoun TX	48057	45.8
+Callahan TX	48059	49.9
+Cameron TX	48061	43.5
+Camp TX	48063	41.7
+Carson TX	48065	58.3
+Cass TX	48067	44.8
+Castro TX	48069	45.5
+Chambers TX	48071	46.2
+Cherokee TX	48073	43.1
+Childress TX	48075	43.2
+Clay TX	48077	48.9
+Cochran TX	48079	
+Coke TX	48081	
+Coleman TX	48083	46.4
+Collin TX	48085	45.6
+Collingsworth TX	48087	
+Colorado TX	48089	47.4
+Comal TX	48091	44.1
+Comanche TX	48093	48.4
+Concho TX	48095	
+Cooke TX	48097	47.3
+Coryell TX	48099	43.1
+Cottle TX	48101	
+Crane TX	48103	
+Crockett TX	48105	
+Crosby TX	48107	43.1
+Culberson TX	48109	
+Dallam TX	48111	49.7
+Dallas TX	48113	39.1
+Dawson TX	48115	45.1
+Deaf Smith TX	48117	43.5
+Delta TX	48119	
+Denton TX	48121	44.9
+De Witt TX	48123	47.6
+Dickens TX	48125	
+Dimmit TX	48127	45.5
+Donley TX	48129	
+Duval TX	48131	51.7
+Eastland TX	48133	47.3
+Ector TX	48135	50.8
+Edwards TX	48137	
+Ellis TX	48139	42.5
+El Paso TX	48141	44.3
+Erath TX	48143	47.7
+Falls TX	48145	40.4
+Fannin TX	48147	43.2
+Fayette TX	48149	50.4
+Fisher TX	48151	
+Floyd TX	48153	43.6
+Foard TX	48155	
+Fort Bend TX	48157	43.5
+Franklin TX	48159	44.4
+Freestone TX	48161	46.2
+Frio TX	48163	45.1
+Gaines NM	48165	54.6
+Galveston TX	48167	41.6
+Garza TX	48169	
+Gillespie TX	48171	47.8
+Glasscock TX	48173	
+Goliad TX	48175	47.2
+Gonzales TX	48177	43.7
+Gray TX	48179	48.8
+Grayson TX	48181	41.3
+Gregg TX	48183	43.5
+Grimes TX	48185	41.4
+Guadalupe TX	48187	41.3
+Hale TX	48189	44.4
+Hall TX	48191	
+Hamilton TX	48193	47.7
+Hansford TX	48195	53.2
+Hardeman TX	48197	
+Hardin TX	48199	46.3
+Harris TX	48201	42.6
+Harrison TX	48203	42.4
+Hartley TX	48205	
+Haskell TX	48207	50.4
+Hays TX	48209	40.7
+Hemphill TX	48211	
+Henderson TX	48213	43.8
+Hidalgo TX	48215	44.1
+Hill TX	48217	44.2
+Hockley TX	48219	46.7
+Hood TX	48221	45.7
+Hopkins TX	48223	44.6
+Houston TX	48225	42.2
+Howard TX	48227	47.9
+Hudspeth TX	48229	
+Hunt TX	48231	40.1
+Hutchinson TX	48233	49.4
+Irion TX	48235	
+Jack TX	48237	54.0
+Jackson TX	48239	48.2
+Jasper TX	48241	44.7
+Jeff Davis TX	48243	
+Jefferson TX	48245	41.5
+Jim Hogg TX	48247	
+Jim Wells TX	48249	49.3
+Johnson TX	48251	46.0
+Jones TX	48253	47.4
+Karnes TX	48255	47.6
+Kaufman TX	48257	41.8
+Kendall TX	48259	46.7
+Kenedy TX	48261	
+Kent TX	48263	
+Kerr TX	48265	43.2
+Kimble TX	48267	
+King TX	48269	
+Kinney TX	48271	
+Kleberg TX	48273	44.7
+Knox TX	48275	
+Lamar TX	48277	39.8
+Lamb TX	48279	46.8
+Lampasas TX	48281	44.1
+La Salle TX	48283	45.7
+Lavaca TX	48285	52.0
+Lee TX	48287	47.0
+Leon TX	48289	49.5
+Liberty TX	48291	45.0
+Limestone TX	48293	43.7
+Lipscomb TX	48295	
+Live Oak TX	48297	48.8
+Llano TX	48299	43.4
+Loving TX	48301	
+Lubbock TX	48303	40.3
+Lynn TX	48305	43.2
+McCulloch TX	48307	48.6
+McLennan TX	48309	39.0
+McMullen TX	48311	
+Madison TX	48313	40.5
+Marion TX	48315	42.8
+Martin TX	48317	
+Mason TX	48319	
+Matagorda TX	48321	46.2
+Maverick TX	48323	46.5
+Medina TX	48325	44.8
+Menard TX	48327	
+Midland TX	48329	49.2
+Milam TX	48331	44.6
+Mills TX	48333	
+Mitchell TX	48335	51.4
+Montague TX	48337	50.8
+Montgomery TX	48339	44.5
+Moore TX	48341	46.4
+Morris TX	48343	42.3
+Motley TX	48345	
+Nacogdoches TX	48347	41.5
+Navarro TX	48349	41.6
+Newton TX	48351	41.3
+Nolan TX	48353	46.2
+Nueces TX	48355	42.4
+Ochiltree TX	48357	56.2
+Oldham TX	48359	
+Orange TX	48361	45.6
+Palo Pinto TX	48363	45.1
+Panola TX	48365	46.3
+Parker TX	48367	46.8
+Parmer NM	48369	47.8
+Pecos TX	48371	52.8
+Polk TX	48373	43.8
+Potter TX	48375	40.4
+Presidio TX	48377	53.5
+Rains TX	48379	46.5
+Randall TX	48381	46.5
+Reagan TX	48383	
+Real TX	48385	
+Red River TX	48387	42.6
+Reeves TX	48389	52.4
+Refugio TX	48391	47.2
+Roberts TX	48393	
+Robertson TX	48395	42.0
+Rockwall TX	48397	44.2
+Runnels TX	48399	46.9
+Rusk TX	48401	45.3
+Sabine TX	48403	46.9
+San Augustine TX	48405	42.7
+San Jacinto TX	48407	42.8
+San Patricio TX	48409	45.0
+San Saba TX	48411	
+Schleicher TX	48413	
+Scurry TX	48415	49.2
+Shackelford TX	48417	
+Shelby TX	48419	45.9
+Sherman OK	48421	
+Smith TX	48423	41.3
+Somervell TX	48425	48.5
+Starr TX	48427	47.6
+Stephens TX	48429	44.3
+Sterling TX	48431	
+Stonewall TX	48433	
+Sutton TX	48435	
+Swisher TX	48437	45.5
+Tarrant TX	48439	41.0
+Taylor TX	48441	43.7
+Terrell TX	48443	
+Terry NM	48445	42.1
+Throckmorton TX	48447	
+Titus TX	48449	43.3
+Tom Green TX	48451	42.9
+Travis TX	48453	38.7
+Trinity TX	48455	39.7
+Tyler TX	48457	45.3
+Upshur TX	48459	43.8
+Upton TX	48461	
+Uvalde TX	48463	43.8
+Val Verde TX	48465	47.6
+Van Zandt TX	48467	44.5
+Victoria TX	48469	43.4
+Walker TX	48471	41.0
+Waller TX	48473	42.0
+Ward TX	48475	53.4
+Washington TX	48477	41.6
+Webb TX	48479	44.7
+Wharton TX	48481	45.3
+Wheeler TX	48483	
+Wichita TX	48485	43.1
+Wilbarger TX	48487	42.7
+Willacy TX	48489	44.5
+Williamson TX	48491	43.5
+Wilson TX	48493	45.0
+Winkler TX	48495	54.1
+Wise TX	48497	48.3
+Wood TX	48499	46.8
+Yoakum NM	48501	54.3
+Young TX	48503	48.7
+Zapata TX	48505	47.8
+Zavala TX	48507	44.7
+Beaver UT	49001	52.1
+Box Elder UT	49003	48.4
+Cache UT	49005	50.3
+Carbon UT	49007	49.4
+Daggett WY	49009	
+Davis UT	49011	47.9
+Duchesne UT	49013	59.0
+Emery UT	49015	50.5
+Garfield UT	49017	51.9
+Grand UT	49019	46.1
+Iron UT	49021	46.0
+Juab UT	49023	51.0
+Kane AZ	49025	47.4
+Millard UT	49027	51.1
+Morgan UT	49029	52.8
+Piute UT	49031	
+Rich WY	49033	
+Salt Lake UT	49035	45.7
+San Juan CO	49037	44.7
+Sanpete UT	49039	50.2
+Sevier UT	49041	49.8
+Summit UT	49043	55.6
+Tooele UT	49045	47.7
+Uintah UT	49047	54.5
+Utah UT	49049	49.1
+Wasatch UT	49051	52.7
+Washington UT	49053	45.8
+Wayne UT	49055	
+Weber UT	49057	44.4
+Addison VT	50001	44.3
+Bennington MA	50003	42.6
+Caledonia VT	50005	43.8
+Chittenden VT	50007	42.7
+Essex VT	50009	46.5
+Franklin VT	50011	44.0
+Grand Isle VT	50013	
+Lamoille VT	50015	44.5
+Orange VT	50017	45.2
+Orleans VT	50019	44.7
+Rutland VT	50021	44.5
+Washington VT	50023	45.6
+Windham NH	50025	44.3
+Windsor VT	50027	44.8
+Accomack VA	51001	38.9
+Albemarle VA	51003	41.7
+Amelia VA	51007	41.0
+Amherst VA	51009	42.2
+Appomattox VA	51011	37.1
+Arlington DC	51013	47.9
+Augusta VA	51015	42.9
+Bath VA	51017	
+Bedford VA	51019	42.1
+Bedford VA	51019	42.1
+Bland VA	51021	46.0
+Botetourt VA	51023	45.1
+Brunswick VA	51025	36.8
+Buchanan VA	51027	49.3
+Buckingham VA	51029	36.9
+Campbell VA	51031	40.0
+Caroline VA	51033	38.4
+Carroll VA	51035	40.1
+Charles City VA	51036	
+Charlotte VA	51037	41.2
+Chesterfield VA	51041	41.8
+Clarke VA	51043	45.4
+Craig VA	51045	
+Culpeper VA	51047	39.7
+Cumberland VA	51049	
+Dickenson VA	51051	49.8
+Dinwiddie VA	51053	37.5
+Essex VA	51057	41.2
+Fairfax DC	51059	51.2
+Fauquier DC	51061	42.0
+Floyd VA	51063	43.0
+Fluvanna VA	51065	40.1
+Franklin VA	51067	41.6
+Franklin VA	51067	41.6
+Frederick VA	51069	42.6
+Giles VA	51071	39.5
+Gloucester VA	51073	41.6
+Goochland VA	51075	41.4
+Grayson VA	51077	42.5
+Greene VA	51079	39.1
+Greensville NC	51081	
+Halifax VA	51083	38.4
+Hanover VA	51085	44.9
+Henrico VA	51087	41.3
+Henry VA	51089	36.6
+Highland VA	51091	
+Isle of Wight VA	51093	38.3
+James City VA	51095	39.3
+King and Queen VA	51097	
+King George VA	51099	41.1
+King William VA	51101	39.4
+Lancaster VA	51103	39.7
+Lee VA	51105	41.1
+Loudoun DC	51107	48.4
+Louisa VA	51109	40.0
+Lunenburg VA	51111	36.3
+Madison VA	51113	41.0
+Mathews VA	51115	45.9
+Mecklenburg VA	51117	38.8
+Middlesex VA	51119	43.7
+Montgomery VA	51121	40.2
+Nelson VA	51125	41.6
+New Kent VA	51127	44.3
+Northampton VA	51131	37.4
+Northumberland VA	51133	37.8
+Nottoway VA	51135	37.4
+Orange VA	51137	40.2
+Page VA	51139	42.7
+Patrick VA	51141	43.8
+Pittsylvania NC	51143	40.5
+Powhatan VA	51145	42.3
+Prince Edward VA	51147	36.4
+Prince George VA	51149	40.9
+Prince William DC	51153	42.8
+Pulaski VA	51155	35.3
+Rappahannock DC	51157	44.8
+Richmond VA	51159	40.6
+Richmond VA	51159	40.6
+Roanoke VA	51161	43.7
+Roanoke VA	51161	43.7
+Rockbridge VA	51163	44.8
+Rockingham VA	51165	44.6
+Russell VA	51167	46.7
+Scott TN	51169	43.3
+Shenandoah VA	51171	45.1
+Smyth TN	51173	39.8
+Southampton VA	51175	38.4
+Spotsylvania VA	51177	42.6
+Stafford VA	51179	44.2
+Surry VA	51181	40.7
+Sussex VA	51183	37.3
+Tazewell VA	51185	43.5
+Warren DC	51187	43.6
+Westmoreland VA	51193	39.3
+Wise VA	51195	43.2
+Wythe VA	51197	43.0
+York VA	51199	42.4
+Alexandria City DC	51510	43.7
+Bedford City VA	51515	40.2
+Bristol City TN	51520	37.7
+Buena Vista City VA	51530	41.5
+Charlottesville City VA	51540	34.5
+Chesapeake City VA	51550	39.4
+Clifton Forge City VA	51560	
+Colonial Heights City VA	51570	43.8
+Covington City VA	51580	41.1
+Danville City NC	51590	34.9
+Emporia City NC	51595	34.6
+Fairfax City DC	51600	53.3
+Falls Church City DC	51610	47.3
+Franklin City VA	51620	35.6
+Fredericksburg City VA	51630	37.7
+Galax City VA	51640	40.0
+Hampton City VA	51650	37.4
+Harrisonburg City VA	51660	42.4
+Hopewell City VA	51670	37.9
+Lexington City VA	51678	44.3
+Lynchburg City VA	51680	36.8
+Manassas City DC	51683	45.0
+Manassas Park City DC	51685	45.1
+Martinsville City VA	51690	35.0
+Newport News City VA	51700	36.3
+Norfolk City VA	51710	35.0
+Norton City VA	51720	
+Petersburg City VA	51730	33.7
+Poquoson City VA	51735	51.0
+Portsmouth City VA	51740	35.8
+Radford VA	51750	39.3
+Richmond City VA	51760	30.9
+Roanoke City VA	51770	35.1
+Salem City VA	51775	42.6
+Staunton City VA	51790	40.2
+Suffolk City VA	51800	36.1
+Virginia Beach City VA	51810	40.7
+Waynesboro City VA	51820	39.3
+Williamsburg City VA	51830	
+Winchester City VA	51840	39.5
+Adams WA	53001	47.7
+Asotin ID	53003	40.4
+Benton WA	53005	45.2
+Chelan WA	53007	45.5
+Clallam WA	53009	40.4
+Clark OR	53011	41.9
+Columbia WA	53013	
+Cowlitz WA	53015	40.4
+Douglas WA	53017	43.6
+Ferry WA	53019	40.0
+Franklin WA	53021	43.6
+Garfield ID	53023	
+Grant WA	53025	44.4
+Grays Harbor WA	53027	40.8
+Island WA	53029	45.3
+Jefferson WA	53031	44.1
+King WA	53033	43.8
+Kitsap WA	53035	42.7
+Kittitas WA	53037	46.5
+Klickitat OR	53039	40.6
+Lewis WA	53041	43.4
+Lincoln WA	53043	48.4
+Mason WA	53045	41.9
+Okanogan WA	53047	42.0
+Pacific WA	53049	42.5
+Pend Oreille WA	53051	44.5
+Pierce WA	53053	42.0
+San Juan WA	53055	39.1
+Skagit WA	53057	44.2
+Skamania OR	53059	40.2
+Snohomish WA	53061	44.2
+Spokane WA	53063	41.9
+Stevens WA	53065	43.0
+Thurston WA	53067	42.2
+Wahkiakum WA	53069	
+Walla Walla WA	53071	43.5
+Whatcom WA	53073	44.1
+Whitman WA	53075	50.4
+Yakima WA	53077	42.9
+Barbour WV	54001	46.3
+Berkeley PA	54003	39.4
+Boone WV	54005	44.0
+Braxton WV	54007	48.3
+Brooke OH	54009	43.0
+Cabell KY	54011	38.1
+Calhoun WV	54013	50.8
+Clay WV	54015	44.5
+Doddridge WV	54017	
+Fayette WV	54019	43.3
+Gilmer WV	54021	
+Grant MD	54023	41.3
+Greenbrier WV	54025	43.0
+Hampshire VA	54027	40.6
+Hardy MD	54031	42.6
+Harrison WV	54033	41.9
+Jackson WV	54035	40.8
+Kanawha WV	54039	40.4
+Lewis WV	54041	46.4
+Lincoln WV	54043	45.7
+Logan WV	54045	44.9
+McDowell WV	54047	42.4
+Marion WV	54049	45.1
+Marshall WV	54051	47.0
+Mason OH	54053	41.7
+Mercer VA	54055	40.5
+Mineral MD	54057	43.9
+Mingo KY	54059	44.9
+Monongalia WV	54061	43.2
+Monroe VA	54063	44.2
+Morgan PA	54065	42.0
+Nicholas WV	54067	45.9
+Ohio WV	54069	41.8
+Pendleton VA	54071	47.6
+Pleasants WV	54073	49.7
+Pocahontas WV	54075	45.3
+Preston WV	54077	47.3
+Putnam WV	54079	44.7
+Raleigh WV	54081	44.5
+Randolph WV	54083	42.8
+Ritchie WV	54085	43.2
+Roane WV	54087	45.1
+Summers WV	54089	39.9
+Taylor WV	54091	44.2
+Tucker WV	54093	
+Tyler WV	54095	50.8
+Upshur WV	54097	46.7
+Webster WV	54101	46.6
+Wetzel WV	54103	44.3
+Wirt WV	54105	43.8
+Wood WV	54107	39.1
+Wyoming WV	54109	47.3
+Adams WI	55001	39.4
+Ashland WI	55003	44.9
+Barron WI	55005	49.1
+Bayfield WI	55007	43.6
+Brown WI	55009	46.2
+Buffalo WI	55011	52.8
+Burnett WI	55013	45.5
+Calumet WI	55015	53.6
+Chippewa WI	55017	48.6
+Clark WI	55019	52.7
+Columbia WI	55021	47.5
+Crawford WI	55023	50.3
+Dane WI	55025	42.4
+Dodge WI	55027	50.1
+Door WI	55029	51.1
+Dunn WI	55033	48.6
+Eau Claire WI	55035	46.1
+Florence MI	55037	
+Fond Du Lac WI	55039	48.3
+Forest WI	55041	48.5
+Grant WI	55043	51.5
+Green WI	55045	48.0
+Green Lake WI	55047	50.9
+Iowa WI	55049	53.0
+Jackson WI	55053	46.1
+Jefferson WI	55055	46.5
+Juneau WI	55057	48.4
+Kenosha WI	55059	38.1
+Kewaunee WI	55061	49.6
+La Crosse WI	55063	45.3
+Lafayette WI	55065	54.3
+Langlade WI	55067	46.0
+Lincoln WI	55069	48.0
+Manitowoc WI	55071	48.2
+Marathon WI	55073	49.9
+Marinette MI	55075	46.5
+Marquette WI	55077	43.7
+Menominee WI	55078	
+Milwaukee WI	55079	36.1
+Monroe WI	55081	47.0
+Oconto WI	55083	47.2
+Oneida WI	55085	45.6
+Outagamie WI	55087	48.2
+Ozaukee WI	55089	49.7
+Pepin WI	55091	58.9
+Pierce MN	55093	53.8
+Polk WI	55095	47.4
+Portage WI	55097	48.1
+Price WI	55099	50.3
+Racine WI	55101	39.6
+Richland WI	55103	44.4
+Rock WI	55105	41.2
+Rusk WI	55107	46.6
+St Croix MN	55109	50.1
+Sauk WI	55111	46.3
+Sawyer WI	55113	42.1
+Shawano WI	55115	48.4
+Sheboygan WI	55117	46.3
+Taylor WI	55119	50.9
+Trempealeau WI	55121	50.9
+Vernon WI	55123	49.5
+Vilas WI	55125	44.3
+Walworth WI	55127	45.3
+Washburn WI	55129	46.1
+Washington WI	55131	49.6
+Waukesha WI	55133	47.8
+Waupaca WI	55135	49.1
+Waushara WI	55137	46.4
+Winnebago WI	55139	44.5
+Wood WI	55141	48.5
+Albany WY	56001	48.5
+Campbell WY	56005	54.7
+Carbon WY	56007	49.4
+Converse WY	56009	54.2
+Crook WY	56011	61.7
+Fremont WY	56013	46.4
+Goshen WY	56015	48.8
+Hot Springs WY	56017	
+Johnson WY	56019	56.3
+Laramie WY	56021	45.2
+Lincoln WY	56023	52.7
+Natrona WY	56025	49.5
+Niobrara WY	56027	
+Park WY	56029	52.4
+Platte WY	56031	54.1
+Sheridan WY	56033	50.9
+Sublette WY	56035	
+Sweetwater WY	56037	53.1
+Uinta WY	56041	50.3
+Washakie WY	56043	47.5
+Weston WY	56045	52.6
