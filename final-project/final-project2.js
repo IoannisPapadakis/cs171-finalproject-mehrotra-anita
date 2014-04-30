@@ -33,6 +33,8 @@ var svg = canvas.append("g").attr({
         transform: "translate(" + margin.left + "," + margin.top + ")"
     });
 
+var brush_timer;
+
 svg.append("text")
         .attr("x", ((width /2) - 450))             
         .attr("y", 0 - (margin.top/2))
@@ -233,49 +235,117 @@ var createParallelCoords = function(allcounties, counties) {
     d3.event.sourceEvent.stopPropagation();
   }
 
+  
   // Handles a brush event, toggling the display of foreground lines.
+  var all_ids = [];
+  var intersection_ids = [];
+  var curr_ids = [];
+  var new_ids = [];
+
   function brush() {
 
-    var actives = dimensions.filter(function(p) { 
-      return !y[p].brush.empty(); // returns boolean: true if there IS a line
-    });
+    // clear out old highlights
+    clearTimeout(brush_timer);
 
-    var extents = actives.map(function(p) { 
-      return y[p].brush.extent(); // returns an array with [lower bound, upper bound]
-    });
+    // highlight with delay
+    brush_timer = setTimeout( function() {
 
-    // identify county ID for selected lines
-    var ids = [];
-    foreground.style("display", function(d) {
-      actives.every(function(p, i) {
+      var list_of_axes = []; // list of brushed axes
+      var count_of_axes; // total number of brushed axes
+      var curr_axis; // axis we are currently brushing
+      var range_we_care_about; // range of values selected by current brush
+      var new_ids = []; // overlapping ids across different brushed axes
 
-        // highlight counties on US map
-        if ( extents[i][0] <= d[p] && d[p] <= extents[i][1] ) {
-
-          // store highlighted county IDs
-          ids.push(d["County ID"]);
-
-          // send to function for highlighting on map 
-          highlightCounty(allcounties, ids);
-
+      var actives = dimensions.filter(function(p) { 
+        
+        // count the number of axes being brushed
+        if (!y[p].brush.empty() == true) {
+          curr_axis = p;
+          list_of_axes.push(p);
         }
-      })
-    });
+        count_of_axes = list_of_axes.length;
 
-    // highlight selected lines
-    foreground.style("display", function(d) {
-      return actives.every(function(p, i) {
-        return extents[i][0] <= d[p] && d[p] <= extents[i][1]; 
-      }) ? null : "none";
+        // returns boolean: true if there IS a line
+        return !y[p].brush.empty(); 
+      });
 
-    });
+      
+      var extents = actives.map(function(p) { 
+        // returns an array with [lower bound, upper bound]
+        range_we_care_about = y[p].brush.extent();
+        // console.log("range_we_care_about first", range_we_care_about);
+        return y[p].brush.extent(); 
+      });
 
+
+      foreground.style("display", function(d) {
+
+        actives.every(function(p, i) {
+
+          // highlight counties on US map
+          if ( extents[i][0] <= d[p] && d[p] <= extents[i][1]) {
+
+            // if it's the first selection, and curr_ids is empty, use all selected ids
+            //    otherwise, use curr_ids
+            if (count_of_axes == 1) {
+              
+              curr_ids.push(d["County ID"]);
+              // console.log(p);
+              // console.log("curr_ids ", curr_ids);
+              // console.log("new_ids", new_ids);
+
+              highlightCounty(allcounties, curr_ids);
+              
+            }
+            else if (count_of_axes > 1) {
+
+              // console.log(list_of_axes);
+
+              var range_we_care_about;
+
+              if (curr_axis != undefined) {
+
+                var end = extents.length; 
+                range_we_care_about = extents[end-1];
+
+                // console.log("d", d);
+                // console.log("d[curr_axis]", d[curr_axis]);
+
+                if (d[curr_axis] >= range_we_care_about[0] && d[curr_axis] <= range_we_care_about[1]) {
+
+                  // console.log(d["County ID"], " IS actually in the range");
+                  new_ids.push(d["County ID"]);
+                }
+              }
+
+              if (curr_ids.indexOf(new_ids) > -1) { 
+                // if the item is not in the existing list, remove its highlight
+                detailVis.select("g.highlight").data(selected_county).remove();
+              }
+              else {
+                // if it is, keep the highlight
+                console.log("new_ids", new_ids);
+                highlightCounty(allcounties, new_ids);
+              }
+            } 
+          }
+
+        })
+
+      });
+
+
+      // highlight selected lines
+      foreground.style("display", function(d) {
+        return actives.every(function(p, i) {
+          return extents[i][0] <= d[p] && d[p] <= extents[i][1]; 
+        }) ? null : "none";
+
+      });
+
+    }, 500);
   }
 }
-
-
-
-
 
 // Highlight counties that are selected in parallel coordinates
 var highlightCounty = function(allcounties, ids) {
@@ -294,11 +364,11 @@ var highlightCounty = function(allcounties, ids) {
 
   });
 
-  console.log("selected counties", ids);
+  // console.log("selected counties", ids);
 
   // highlight counties on map
 
-  // detailVis.selectAll("g.highlight").remove();
+  detailVis.selectAll("g.highlight").remove();
   
   detailVis.append("g")
       .attr("class", "highlight")
@@ -308,8 +378,28 @@ var highlightCounty = function(allcounties, ids) {
       .attr("d", path)
       .style("stroke-width", 1.25)
       .style("stroke", "darkred")
-      .style("stroke-opacity", .2);
+      .style("fill", "none")
+      .style("stroke-opacity", .7);
 
+}
+
+var removeHighlight = function(allcounties, ids) {
+
+  var selected_county = [];
+  ids.forEach(function(m) {
+
+    allcounties.forEach(function(d, i) {
+
+      // get geo-object associated with each id
+      if (d.id==m) {
+        selected_county.push(d);
+      }
+
+    });
+
+  });
+
+  detailVis.select("g.highlight").data(selected_county).remove();
 }
 
 
