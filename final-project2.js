@@ -479,10 +479,7 @@ var highlightCounty = function(allcounties, ids) {
 
   });
 
-  // console.log("selected counties", ids);
-
   // highlight counties on map
-
   detailVis.selectAll("g.highlight").remove();
   
   detailVis.append("g")
@@ -492,7 +489,7 @@ var highlightCounty = function(allcounties, ids) {
     .enter().append("path")
       .attr("d", path)
       .style("stroke-width", 1.25)
-      .style("stroke", "darkred")
+      .style("stroke", "rgb(77, 0, 77)")
       .style("fill", "none")
       .style("stroke-opacity", .7);
 
