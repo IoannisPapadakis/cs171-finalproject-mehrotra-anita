@@ -47,7 +47,7 @@ A description of each feature is provided for context in the visualization, but 
 ### Visualization Features
 
 * Linking between two visualizations
-* Zoom-in capability
+* Zoom-in capability (click on a county once to zoom in, and then re-click that county to zoom out)
 * Tool-tip hover
 * Brushing
 * Color mapping and scales
