@@ -10,7 +10,7 @@ Screencast (also available on website):
 
 Process Book: 
 
-Some things to keep in mind: There is a lot of data being processed (over 3,000 counties are in the U.S.!), so if a particularly dense portion of the parallel coordinates visualization is brushed, there _will_ be a lag in the highlights that appear on the map.
+__Something to keep in mind__: There is a lot of data being processed (over 3,000 counties are in the U.S.!), so if a particularly dense portion of the parallel coordinates visualization is brushed, there _will_ be a lag in the highlights that appear on the map.
 
 ### Relevant Scripts
  
