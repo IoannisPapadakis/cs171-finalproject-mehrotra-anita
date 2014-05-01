@@ -82,7 +82,7 @@ svg.append("svg:text")
         .attr("y", height - (margin.top/2) + 75)
         .text("MEAN PARENT INCOME: Mean parent family income within county");
 
-// add feature descriptions
+// add absolute mobility definition
 detailVis.append("svg:text")
         .attr("x", (detailVisWidth/2) - 190)             
         .attr("y", detailVisHeight - 160)
@@ -194,7 +194,7 @@ function ready(error, us) {
   var ls_w = 20, ls_h = 20;
 
   legend.append("rect")
-    .attr("x", 550)
+    .attr("x", 545)
     .attr("y", function(d, i){ return height + 150 - (i*ls_h) - 2*ls_h; })
     .attr("width", ls_w)
     .attr("height", ls_h)
@@ -202,7 +202,7 @@ function ready(error, us) {
     .style("opacity", 0.8);
 
   legend.append("text")
-    .attr("x", 529)
+    .attr("x", 524)
     .attr("y", function(d, i){ return height + 146 - (i*ls_h) - ls_h - 4;})
     .text(function(d, i){ return legend_labels[i]; })
     .style("font-size", "9px");
