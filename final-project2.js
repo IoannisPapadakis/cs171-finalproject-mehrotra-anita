@@ -8,11 +8,11 @@ var margin = {
     top: 80,
     right: 10,
     bottom: 50,
-    left: 10
+    left: 0
 };
 
 var width = 960,
-    height = 500 - margin.bottom - margin.top;
+    height = 600 - margin.bottom - margin.top;
 
 // create svg elements for each viz (detail and overview)
 var detailVisWidth = 600;
@@ -20,7 +20,6 @@ var detailVisHeight = 700;
 
 var canvas = d3.select("#vis").append("svg").attr({
     width: width-100,
-    //  + margin.left + margin.right
     height: height + margin.top + margin.bottom
     })
 
@@ -56,7 +55,7 @@ svg.append("svg:text")
         .append("svg:tspan")
         .attr("x", ((width /2) - 450))             
         .attr("y", height - (margin.top/2) - 25)
-        .text("So... What do the above features mean?")
+        .text("SO... WHAT DO THE ABOVE FEATURES MEAN?")
         .append("svg:tspan")
         .attr("x", ((width /2) - 450))             
         .attr("y", height - (margin.top/2))
@@ -85,19 +84,23 @@ svg.append("svg:text")
 // add absolute mobility definition
 detailVis.append("svg:text")
         .attr("x", (detailVisWidth/2) - 190)             
-        .attr("y", detailVisHeight - 160)
+        .attr("y", detailVisHeight - 120)
         .attr("text-anchor", "left-align")  
         .style("font-size", "10px")
         .style("fill", "grey")
         .style("font-family", "Goudy Bookletter 1911")
         .append("svg:tspan")
         .attr("x", (detailVisWidth/2) - 190)             
-        .attr("y", detailVisHeight - 160)
+        .attr("y", detailVisHeight - 120)
         .text("ABSOLUTE MOBILITY is the expected rank of a child born between 1980-82,")
         .append("svg:tspan")
         .attr("x", (detailVisWidth/2) - 140)             
-        .attr("y", detailVisHeight - 145)
-        .text("given the corresponding percentile of parent income");
+        .attr("y", detailVisHeight - 105)
+        .text("given the corresponding percentile of parent income.")
+        .append("svg:tspan")
+        .attr("x", 85)             
+        .attr("y", detailVisHeight - 85)
+        .text("For more info, check out Chetty et al's 2014 paper, 'Is the U.S. still the Land of Opportunity?'");
         
 
 // load data
@@ -124,7 +127,7 @@ var quantize_abs = d3.scale.quantize()
     .range(d3.range(9).map(function(i) { return "q" + i + "-9"; }));
 
 var projection = d3.geo.albersUsa()
-    .scale(750)
+    .scale(800)
     .translate([(detailVisWidth-28)/2, (detailVisHeight-60) / 2]);
 
 var path = d3.geo.path()
@@ -194,16 +197,16 @@ function ready(error, us) {
   var ls_w = 20, ls_h = 20;
 
   legend.append("rect")
-    .attr("x", 540)
-    .attr("y", function(d, i){ return height + 150 - (i*ls_h) - 2*ls_h; })
+    .attr("x", 530)
+    .attr("y", function(d, i){ return height + 120 - (i*ls_h) - 2*ls_h; })
     .attr("width", ls_w)
     .attr("height", ls_h)
     .attr("class", function(d) { return quantize_abs(d); })
     .style("opacity", 0.8);
 
   legend.append("text")
-    .attr("x", 519)
-    .attr("y", function(d, i){ return height + 146 - (i*ls_h) - ls_h - 4;})
+    .attr("x", 509)
+    .attr("y", function(d, i){ return height + 116 - (i*ls_h) - ls_h - 4;})
     .text(function(d, i){ return legend_labels[i]; })
     .style("font-size", "9px");
   
