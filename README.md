@@ -8,6 +8,8 @@ Website: http://anitameh.github.io/cs171-finalproject-mehrotra-anita/
 
 Screencast (also available on website): 
 
+Process Book: 
+
 ### Relevant Scripts
  
  * FINAL-PROJECT2.HTML: html file containing CSS
