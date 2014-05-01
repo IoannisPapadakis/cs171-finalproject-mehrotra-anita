@@ -45,6 +45,60 @@ svg.append("text")
         .style("font-family", "Goudy Bookletter 1911")
         .text("U.S. K-12 Education and Mobility");
 
+// add feature descriptions
+svg.append("svg:text")
+        .attr("x", ((width /2) - 450))             
+        .attr("y", height - (margin.top/2))
+        .attr("text-anchor", "left-align")  
+        .style("font-size", "10px")
+        .style("fill", "grey")
+        .style("font-family", "Goudy Bookletter 1911")
+        .append("svg:tspan")
+        .attr("x", ((width /2) - 450))             
+        .attr("y", height - (margin.top/2) - 25)
+        .text("So... What do the above features mean?")
+        .append("svg:tspan")
+        .attr("x", ((width /2) - 450))             
+        .attr("y", height - (margin.top/2))
+        .text("SCHOOL EXPENDITURE PER STUDENT: Average expenditures per student in public schools")
+        .append("svg:tspan")
+        .attr("x", ((width /2) - 450))             
+        .attr("y", height - (margin.top/2) + 15)
+        .text("STUDENT-TEACHER RATIO: Average student-teacher ratio in public schools")
+        .append("svg:tspan")
+        .attr("x", ((width /2) - 450))             
+        .attr("y", height - (margin.top/2) + 30)
+        .text("TEST SCORE PERCENTILE (income-adjusted): Residual from a regression of mean Math & English standardized test scores on household income per capita in 2000")
+        .append("svg:tspan")
+        .attr("x", ((width /2) - 450))             
+        .attr("y", height - (margin.top/2) + 45)
+        .text("HIGH SCHOOL DROPOUT RATE (income-adjusted): Residual from a regression of HS dropout rates on household income per capita in 2000")
+        .append("svg:tspan")
+        .attr("x", ((width /2) - 450))             
+        .attr("y", height - (margin.top/2) + 60)
+        .text("TEENAGE PREGNANCY RATE: Fraction of female children in core sample claiming dependent born between kids ages 13-19")
+        .append("svg:tspan")
+        .attr("x", ((width /2) - 450))             
+        .attr("y", height - (margin.top/2) + 75)
+        .text("MEAN PARENT INCOME: Mean parent family income within county");
+
+// add feature descriptions
+detailVis.append("svg:text")
+        .attr("x", (detailVisWidth/2) - 190)             
+        .attr("y", detailVisHeight - 160)
+        .attr("text-anchor", "left-align")  
+        .style("font-size", "10px")
+        .style("fill", "grey")
+        .style("font-family", "Goudy Bookletter 1911")
+        .append("svg:tspan")
+        .attr("x", (detailVisWidth/2) - 190)             
+        .attr("y", detailVisHeight - 160)
+        .text("ABSOLUTE MOBILITY is the expected rank of a child born between 1980-82,")
+        .append("svg:tspan")
+        .attr("x", (detailVisWidth/2) - 140)             
+        .attr("y", detailVisHeight - 145)
+        .text("given the corresponding percentile of parent income");
+        
 
 // load data
 queue()
@@ -70,7 +124,7 @@ var quantize_abs = d3.scale.quantize()
     .range(d3.range(9).map(function(i) { return "q" + i + "-9"; }));
 
 var projection = d3.geo.albersUsa()
-    .scale(800)
+    .scale(750)
     .translate([(detailVisWidth-28)/2, (detailVisHeight-60) / 2]);
 
 var path = d3.geo.path()
