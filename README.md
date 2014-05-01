@@ -27,6 +27,6 @@ A description of each feature is provided for context in the visualization, but 
 1. "School Expenditure per Student:" Average expenditures per student in public schools per county
 2. "Student-Teacher Ratio:" Average student-teacher ratio in public schools per county
 3. "Test Score Percentile (income-adjusted):" Residual from a regression of mean math and English standardized test scores on household income per capita in 2000
-4. "High School Drop-out Rate (income-adjusted):" Residual from a regression of high school dropout rates on household income per capita in 2000. Coded as missing for commuting zones in which dropout rates are missing for more than 25% of school districts
-5. "Teenage Pregnancy Rate:" Fraction of female children in core sample claiming dependent born between kids ages 13-19
+4. "High School Drop-out Rate (income-adjusted):" Residual from a regression of high school dropout rates on household income per capita in 2000. Coded as missing for commuting zones (and therefore for counties) in which dropout rates are missing for more than 25% of school districts
+5. "Teenage Pregnancy Rate:" Fraction of female children in core sample claiming dependent born between kids ages 13-19 per county
 6. "Mean Parent Income:" Mean parent family income within county
