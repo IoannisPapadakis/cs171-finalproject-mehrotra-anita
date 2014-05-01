@@ -153,12 +153,13 @@ function ready(error, us) {
                     .attr("class", "counties")
                   .selectAll("path")
                     .data(allcounties)
-                  .enter().append("path");
+                  .enter().append("path")
+                    .attr("d", path)
+                    .on("click", clicked);
 
-  // color counties according to scale and zoom on click
+  // color counties according to scale
   counties.attr("class", function(d) { return quantize_abs(mobilityById.get(d.id)); })
-          .attr("d", path)
-          .on("click", clicked);
+          .attr("d", path);
 
   // add county and state border lines
   detailVis.append("path")
@@ -190,11 +191,19 @@ function ready(error, us) {
 
   // add legend
   var legend = detailVis.selectAll("g.legend")
-  .data(ext_color_domain)
-  .enter().append("g")
-  .attr("class", "legend");
+    .data(ext_color_domain)
+    .enter().append("g")
+    .attr("class", "legend");
 
   var ls_w = 20, ls_h = 20;
+
+  legend.append("rect")
+    .attr("x", 505)
+    .attr("y", height-100)
+    .attr("width", ls_w+30)
+    .attr("height", ls_h+200)
+    .style("fill", "white")
+    .style("opacity", 0.065);
 
   legend.append("rect")
     .attr("x", 530)
@@ -202,13 +211,16 @@ function ready(error, us) {
     .attr("width", ls_w)
     .attr("height", ls_h)
     .attr("class", function(d) { return quantize_abs(d); })
-    .style("opacity", 0.8);
+    .style("opacity", 0.8)
+    .style("stroke", "white");
 
   legend.append("text")
     .attr("x", 509)
     .attr("y", function(d, i){ return height + 116 - (i*ls_h) - ls_h - 4;})
     .text(function(d, i){ return legend_labels[i]; })
-    .style("font-size", "9px");
+    .style("font-size", "9px")
+    .style("font-width", "bold")
+    .style("font-color", "black");
   
 }
 
@@ -217,37 +229,26 @@ function ready(error, us) {
 // Zoom in on U.S. map if clicked
 function clicked(d) {
   var x, y, k;
-  console.log("clicked");
-  console.log("d", d);
 
 
   if (d && centered !== d) {
-    // console.log("centered", centered);
-    console.log("d", d);
     var centroid = path.centroid(d);
     x = centroid[0];
     y = centroid[1];
     k = 4;
     centered = d;
-    // console.log("centered", centered);
-
   } else {
-    // x = width / 2;
-    // y = height / 2;
     x = detailVisWidth / 2;
     y = detailVisHeight / 2;
     k = 1;
     centered = null;
   }
 
-  canvas.selectAll("path")
-      .classed("active", centered && function(d) { return d === centered; });
-
-  canvas.transition()
-      .duration(750)
-      // .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")scale(" + k + ")translate(" + -x + "," + -y + ")")
-      .attr("transform", "translate(" + detailVisWidth / 2 + "," + detailVisHeight / 2 + ")scale(" + k + ")translate(" + -x + "," + -y + ")")
-      .style("stroke-width", 1.5 / k + "px");
+  detailVis.selectAll("path")
+      .classed("active", centered && function(d) { return d === centered; })
+    .transition()
+      .duration(1100)
+      .attr("transform", "translate(" + detailVisWidth / 2 + "," + detailVisHeight / 2 + ")scale(" + k + ")translate(" + -x + "," + -y + ")");
 }
 
 // Get county ID's for each line in parallel coordinates
@@ -370,6 +371,7 @@ var createParallelCoords = function(allcounties, counties) {
       var curr_axis; // axis we are currently brushing
       var range_we_care_about; // range of values selected by current brush
       var new_ids = []; // overlapping ids across different brushed axes
+      var just_these = [];
 
       var actives = dimensions.filter(function(p) { 
         
@@ -384,14 +386,10 @@ var createParallelCoords = function(allcounties, counties) {
         return !y[p].brush.empty(); 
       });
 
-      
       var extents = actives.map(function(p) { 
         // returns an array with [lower bound, upper bound]
-        range_we_care_about = y[p].brush.extent();
-        // console.log("range_we_care_about first", range_we_care_about);
         return y[p].brush.extent(); 
       });
-
 
       foreground.style("display", function(d) {
 
@@ -405,16 +403,29 @@ var createParallelCoords = function(allcounties, counties) {
             if (count_of_axes == 1) {
 
               curr_ids.push(d["County ID"]);
-              // console.log(p);
-              // console.log("curr_ids ", curr_ids);
-              // console.log("new_ids", new_ids);
 
-              highlightCounty(allcounties, curr_ids);
+              // only keep unique curr_ids
+              var distinct = [];
+              curr_ids.forEach(function (x) {
+                if (distinct.indexOf(x) == -1) {
+                  distinct.push(x);
+                }
+              });
+
+              if (curr_axis != undefined) {
+                if (d[curr_axis] >= extents[0][0] && d[curr_axis] <= extents[0][1]) {
+                    just_these.push(d["County ID"]);
+                }
+              }
+
+              detailVis.select("g.highlight").data(distinct).remove();
+
+              if (distinct.indexOf(just_these) == -1) {
+                highlightCounty(allcounties, just_these);
+              }
               
             }
             else if (count_of_axes > 1) {
-
-              // console.log(list_of_axes);
 
               var range_we_care_about;
 
@@ -423,32 +434,26 @@ var createParallelCoords = function(allcounties, counties) {
                 var end = extents.length; 
                 range_we_care_about = extents[end-1];
 
-                // console.log("d", d);
-                // console.log("d[curr_axis]", d[curr_axis]);
-
                 if (d[curr_axis] >= range_we_care_about[0] && d[curr_axis] <= range_we_care_about[1]) {
 
-                  // console.log(d["County ID"], " IS actually in the range");
                   new_ids.push(d["County ID"]);
                 }
               }
 
               if (curr_ids.indexOf(new_ids) > -1) { 
                 // if the item is not in the existing list, remove its highlight
-                detailVis.select("g.highlight").data(selected_county).remove();
+                detailVis.select("g.highlight").remove();
               }
               else {
                 // if it is, keep the highlight
-                console.log("new_ids", new_ids);
                 highlightCounty(allcounties, new_ids);
               }
-            } 
+            }
           }
 
         })
 
       });
-
 
       // highlight selected lines
       foreground.style("display", function(d) {
@@ -464,7 +469,8 @@ var createParallelCoords = function(allcounties, counties) {
 
 // Highlight counties that are selected in parallel coordinates
 var highlightCounty = function(allcounties, ids) {
-  
+
+
   var selected_county = [];
   ids.forEach(function(m) {
 
@@ -480,7 +486,7 @@ var highlightCounty = function(allcounties, ids) {
   });
 
   // highlight counties on map
-  detailVis.selectAll("g.highlight").remove();
+  detailVis.select("g.highlight").remove();
   
   detailVis.append("g")
       .attr("class", "highlight")
@@ -490,12 +496,9 @@ var highlightCounty = function(allcounties, ids) {
       .attr("d", path)
       .style("stroke-width", 1.25)
       .style("stroke", "rgb(77, 0, 77)")
-      .style("fill", "none")
-      .style("stroke-opacity", .7);
+      .style("fill", "none");
 
 }
-
-
 
 
 
