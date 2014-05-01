@@ -6,7 +6,7 @@ Mobility, defined in terms of the expected income rank of a child, given his/her
 
 Website: http://anitameh.github.io/cs171-finalproject-mehrotra-anita/
 
-Screencast (also available on website): 
+Screencast (also available on website): https://github.com/anitameh/cs171-finalproject-mehrotra-anita/blob/master/mehrotra-process-book.pdf
 
 Process Book: 
 
