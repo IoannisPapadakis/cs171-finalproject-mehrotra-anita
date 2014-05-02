@@ -6,9 +6,9 @@ Mobility, defined in terms of the expected income rank of a child, given his/her
 
 Website: http://anitameh.github.io/cs171-finalproject-mehrotra-anita/
 
-Screencast (also available on website): https://github.com/anitameh/cs171-finalproject-mehrotra-anita/blob/master/mehrotra-process-book.pdf
+Screencast (this can also be found on the website): https://vimeo.com/93556372
 
-Process Book: 
+Process Book: https://github.com/anitameh/cs171-finalproject-mehrotra-anita/blob/master/mehrotra-process-book.pdf
 
 __Something to keep in mind__: There is a lot of data being processed (over 3,000 counties are in the U.S.!), so if a particularly dense portion of the parallel coordinates visualization is brushed, there _will_ be a lag in the highlights that appear on the map.
 
