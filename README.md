@@ -8,13 +8,13 @@ Website: http://anitameh.github.io/cs171-finalproject-mehrotra-anita/
 
 Visualization*: http://anitameh.github.io/cs171-finalproject-mehrotra-anita/final-project2.html
 
-*Enter full-screen mode for best viewing results.
-
 Screencast: https://vimeo.com/93556372 or http://anitameh.github.io/cs171-finalproject-mehrotra-anita/screencast.html
 
 Process Book: https://github.com/anitameh/cs171-finalproject-mehrotra-anita/blob/master/mehrotra-process-book.pdf
 
 __Something to keep in mind__: There is a lot of data being processed (over 3,000 counties are in the U.S.!), so if a particularly dense portion of the parallel coordinates visualization is brushed, there _will_ be a lag in the highlights that appear on the map.
+
+*Enter full-screen mode for best viewing results.
 
 ### Relevant Scripts
  
