@@ -179,13 +179,14 @@ function ready(error, us) {
       div.transition()        
           .duration(200)      
           .style("opacity", .9);      
-      div.html(fip_name[d.id] + "<br/>" + "Mobility: " + fip_mobility[d.id])
-        // if (d.id == undefined) {
-        //   return fip_name[d.id] + "<br/>" + "Mobility: undefined";
-        // }
-        // else {
-        //   return fip_name[d.id] + "<br/>" + "Mobility: " + fip_mobility[d.id];
-        // })
+      div.html( function() {
+          if (fip_mobility[d.id] == "") {
+            return fip_name[d.id] + "<br/>" + "Mobility: unknown"; 
+          }
+          else {
+            return fip_name[d.id] + "<br/>" + "Mobility: " + fip_mobility[d.id]; 
+          }
+        })
           .style("left", (d3.event.pageX) + "px")     
           .style("top", (d3.event.pageY - 28) + "px");    
       })
