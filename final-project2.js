@@ -441,14 +441,19 @@ var createParallelCoords = function(allcounties, counties) {
                 var end = extents.length; 
                 range_we_care_about = extents[end-1];
 
+                console.log("range_we_care_about", range_we_care_about);
+
                 if (d[curr_axis] >= range_we_care_about[0] && d[curr_axis] <= range_we_care_about[1]) {
 
                   new_ids.push(d["County ID"]);
                 }
               }
 
+              console.log("curr_ids", curr_ids);
+              console.log("new_ids", new_ids);
+
               if (curr_ids.indexOf(new_ids) > -1) { 
-                // if the item is not in the existing list, remove its highlight
+                // if the item is in the existing list, remove its highlight
                 detailVis.select("g.highlight").remove();
               }
               else {
