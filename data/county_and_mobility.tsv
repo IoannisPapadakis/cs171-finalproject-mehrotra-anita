@@ -567,11 +567,11 @@ Ada ID	16001	42.6
 Adams ID	16003	
 Bannock ID	16005	43.1
 Bear Lake ID	16007	53.8
-Benewah WA	16009	45.6
+Benewah ID	16009	45.6
 Bingham ID	16011	46.3
 Blaine ID	16013	43.1
 Boise ID	16015	
-Bonner WA	16017	45.7
+Bonner ID	16017	45.7
 Bonneville ID	16019	45.5
 Boundary ID	16021	46.2
 Butte ID	16023	
@@ -590,8 +590,8 @@ Gooding ID	16047	46.3
 Idaho ID	16049	48.5
 Jefferson ID	16051	49.1
 Jerome ID	16053	45.2
-Kootenai WA	16055	44.8
-Latah WA	16057	46.3
+Kootenai ID	16055	44.8
+Latah ID	16057	46.3
 Lemhi ID	16059	46.2
 Lewis ID	16061	46.9
 Lincoln ID	16063	
@@ -600,9 +600,9 @@ Minidoka ID	16067	49.2
 Nez Perce ID	16069	43.6
 Oneida UT	16071	
 Owyhee ID	16073	46.0
-Payette OR	16075	43.9
+Payette ID	16075	43.9
 Power ID	16077	46.9
-Shoshone WA	16079	43.4
+Shoshone ID	16079	43.4
 Teton WY	16081	50.1
 Teton WY	16081	50.4
 Teton WY	56039	50.1
@@ -610,7 +610,7 @@ Teton WY	56039	50.4
 Twin Falls ID	16083	45.5
 Valley ID	16085	43.3
 Washington OR	16087	45.7
-Washington OR	16087	43.1
+Washington ID	16087	43.1
 Washington OR	41067	45.7
 Washington OR	41067	43.1
 Adams IL	17001	45.4
@@ -2256,7 +2256,7 @@ Cotton OK	40033	47.4
 Craig OK	40035	44.9
 Creek OK	40037	42.9
 Custer OK	40039	49.2
-Delaware AR	40041	41.8
+Delaware OK	40041	41.8
 Dewey OK	40043	60.1
 Ellis OK	40045	
 Garfield OK	40047	46.4
@@ -2315,7 +2315,7 @@ Woodward OK	40153	50.5
 Baker OR	41001	46.2
 Benton OR	41003	42.1
 Clackamas OR	41005	43.2
-Clatsop WA	41007	42.7
+Clatsop OR	41007	42.7
 Columbia OR	41009	42.4
 Coos OR	41011	41.2
 Crook OR	41013	43.6
@@ -2341,7 +2341,7 @@ Multnomah OR	41051	39.1
 Polk OR	41053	41.5
 Sherman OR	41055	
 Tillamook OR	41057	41.9
-Umatilla WA	41059	42.8
+Umatilla OR	41059	42.8
 Union OR	41061	44.9
 Wallowa OR	41063	47.7
 Wasco OR	41065	43.2
@@ -3054,17 +3054,17 @@ Waynesboro City VA	51820	39.3
 Williamsburg City VA	51830	
 Winchester City VA	51840	39.5
 Adams WA	53001	47.7
-Asotin ID	53003	40.4
+Asotin WA	53003	40.4
 Benton WA	53005	45.2
 Chelan WA	53007	45.5
 Clallam WA	53009	40.4
-Clark OR	53011	41.9
+Clark WA	53011	41.9
 Columbia WA	53013	
 Cowlitz WA	53015	40.4
 Douglas WA	53017	43.6
 Ferry WA	53019	40.0
 Franklin WA	53021	43.6
-Garfield ID	53023	
+Garfield WA	53023	
 Grant WA	53025	44.4
 Grays Harbor WA	53027	40.8
 Island WA	53029	45.3
@@ -3072,7 +3072,7 @@ Jefferson WA	53031	44.1
 King WA	53033	43.8
 Kitsap WA	53035	42.7
 Kittitas WA	53037	46.5
-Klickitat OR	53039	40.6
+Klickitat WA	53039	40.6
 Lewis WA	53041	43.4
 Lincoln WA	53043	48.4
 Mason WA	53045	41.9
@@ -3082,7 +3082,7 @@ Pend Oreille WA	53051	44.5
 Pierce WA	53053	42.0
 San Juan WA	53055	39.1
 Skagit WA	53057	44.2
-Skamania OR	53059	40.2
+Skamania WA	53059	40.2
 Snohomish WA	53061	44.2
 Spokane WA	53063	41.9
 Stevens WA	53065	43.0
