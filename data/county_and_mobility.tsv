@@ -1,7 +1,7 @@
 county state	fip	absolute mobility
 Autauga AL	1001	38.4
 Baldwin AL	1003	39.6
-Barbour GA	1005	36.1
+Barbour AL	1005	36.1
 Bibb AL	1007	39.1
 Blount AL	1009	42.0
 Bullock AL	1011	34.2
@@ -12,7 +12,7 @@ Calhoun GA	13037	38.3
 Calhoun GA	13037	35.3
 Chambers GA	1017	35.4
 Cherokee GA	1019	37.0
-Cherokee GA	1019	42.1
+Cherokee AL	1019	42.1
 Cherokee GA	13057	37.0
 Cherokee GA	13057	42.1
 Chilton AL	1021	40.3
@@ -64,10 +64,10 @@ Perry AL	1105	36.0
 Pickens MS	1107	37.7
 Pike AL	1109	40.0
 Randolph GA	1111	38.2
-Randolph GA	1111	35.3
+Randolph AL	1111	35.3
 Randolph GA	13243	38.2
 Randolph GA	13243	35.3
-Russell GA	1113	35.7
+Russell AL	1113	35.7
 St Clair AL	1115	40.8
 Shelby AL	1117	40.4
 Sumter AL	1119	35.7
@@ -144,7 +144,7 @@ Desha AR	5041	36.4
 Drew AR	5043	38.1
 Faulkner AR	5045	43.3
 Franklin AR	5047	45.4
-Fulton MO	5049	44.8
+Fulton AR	5049	44.8
 Garland AR	5051	40.2
 Grant AR	5053	43.4
 Greene AR	5055	40.7
@@ -176,7 +176,7 @@ Perry AR	5105	44.0
 Phillips AR	5107	35.0
 Pike AR	5109	45.3
 Poinsett AR	5111	38.0
-Polk OK	5113	45.3
+Polk AR	5113	45.3
 Pope AR	5115	41.4
 Prairie AR	5117	40.5
 Pulaski AR	5119	35.8
@@ -286,7 +286,7 @@ Jefferson CO	8059	45.4
 Kiowa CO	8061	
 Kit Carson CO	8063	55.5
 Lake CO	8065	43.0
-La Plata NM	8067	47.8
+La Plata CO	8067	47.8
 Larimer CO	8069	45.4
 Las Animas CO	8071	45.5
 Lincoln CO	8073	
@@ -473,7 +473,7 @@ Houston GA	13153	38.5
 Irwin GA	13155	37.2
 Jackson GA	13157	37.6
 Jasper GA	13159	34.4
-Jasper GA	13159	34.1
+Jasper SC	13159	34.1
 Jasper GA	45053	34.4
 Jasper GA	45053	34.1
 Jeff Davis GA	13161	36.9
@@ -515,7 +515,7 @@ Polk GA	13233	37.4
 Pulaski GA	13235	33.7
 Putnam GA	13237	34.0
 Quitman GA	13239	
-Rabun NC	13241	38.5
+Rabun GA	13241	38.5
 Richmond GA	13245	35.8
 Rockdale GA	13247	39.8
 Schley GA	13249	
@@ -680,7 +680,7 @@ Macon IL	17115	39.5
 Macoupin IL	17117	44.3
 Madison IL	17119	41.4
 Marion IL	17121	40.8
-Marion IL	17121	44.5
+Marion MO	17121	44.5
 Marion IL	29127	40.8
 Marion IL	29127	44.5
 Marshall IL	17123	47.4
@@ -700,7 +700,7 @@ Peoria IL	17143	37.9
 Perry IL	17145	45.2
 Piatt IL	17147	46.6
 Pike IL	17149	47.4
-Pike IL	17149	43.8
+Pike MO	17149	43.8
 Pike IL	29163	47.4
 Pike IL	29163	43.8
 Pope KY	17151	
@@ -889,7 +889,7 @@ Grundy IA	19075	54.8
 Guthrie IA	19077	51.0
 Hamilton IA	19079	49.4
 Hardin IA	19083	53.3
-Harrison NE	19085	50.5
+Harrison IA	19085	50.5
 Henry IA	19087	51.9
 Howard IA	19089	58.4
 Humboldt IA	19091	55.2
@@ -911,20 +911,20 @@ Madison IA	19121	48.9
 Mahaska IA	19123	50.3
 Marion IA	19125	50.5
 Marshall IA	19127	45.8
-Mills NE	19129	48.8
+Mills IA	19129	48.8
 Mitchell IA	19131	56.7
 Monona IA	19133	49.2
 Monroe IA	19135	51.9
 Montgomery IA	19137	48.9
 Muscatine IA	19139	45.7
 Obrien IA	19141	54.9
-Osceola MN	19143	56.4
+Osceola IA	19143	56.4
 Page IA	19145	50.5
 Palo Alto IA	19147	54.8
 Plymouth IA	19149	57.3
 Pocahontas IA	19151	58.3
 Polk IA	19153	42.6
-Pottawattamie NE	19155	44.0
+Pottawattamie IA	19155	44.0
 Poweshiek IA	19157	50.8
 Ringgold IA	19159	
 Sac IA	19161	57.2
@@ -1024,7 +1024,7 @@ Miami MO	20121	47.9
 Mitchell KS	20123	56.9
 Montgomery KS	20125	42.8
 Morris KS	20127	46.7
-Morton OK	20129	
+Morton KS	20129	
 Nemaha KS	20131	63.8
 Neosho KS	20133	45.1
 Ness KS	20135	
@@ -1090,7 +1090,7 @@ Campbell OH	21037	39.1
 Carlisle KY	21039	
 Carter KY	21043	41.4
 Casey KY	21045	40.1
-Christian TN	21047	37.9
+Christian KY	21047	37.9
 Clay KY	21051	37.1
 Clay KY	47027	37.1
 Clinton KY	21053	41.0
@@ -1117,7 +1117,7 @@ Harlan KY	21095	43.0
 Hart KY	21099	39.6
 Henderson KY	21101	39.6
 Henry KY	21103	41.9
-Hickman TN	21105	38.6
+Hickman KY	21105	38.6
 Hickman TN	47081	38.6
 Hopkins KY	21107	43.8
 Jackson KY	21109	41.0
@@ -1182,7 +1182,7 @@ Simpson KY	21213	40.8
 Spencer KY	21215	42.8
 Taylor KY	21217	41.6
 Todd TN	21219	42.2
-Trigg TN	21221	38.8
+Trigg KY	21221	38.8
 Trimble IN	21223	42.6
 Union KY	21225	46.0
 Warren KY	21227	39.3
@@ -1276,7 +1276,7 @@ Sagadahoc ME	23023	41.5
 Somerset ME	23025	42.2
 Waldo ME	23027	39.4
 Washington ME	23029	38.9
-York NH	23031	44.7
+York ME	23031	44.7
 Allegany MD	24001	43.2
 Anne Arundel MD	24003	40.8
 Baltimore MD	24005	42.2
@@ -1284,7 +1284,7 @@ Baltimore MD	24005	42.2
 Calvert DC	24009	43.5
 Caroline MD	24011	39.4
 Carroll MD	24013	47.5
-Cecil DE	24015	41.2
+Cecil MD	24015	41.2
 Charles DC	24017	42.9
 Dorchester MD	24019	37.3
 Frederick DC	24021	45.6
@@ -1299,11 +1299,11 @@ St Marys DC	24037	44.3
 Somerset DE	24039	38.4
 Talbot MD	24041	39.8
 Washington PA	24043	43.1
-Washington PA	24043	47.3
+Washington MD	24043	47.3
 Washington PA	42125	43.1
 Washington PA	42125	47.3
-Wicomico DE	24045	38.6
-Worcester DE	24047	39.2
+Wicomico MD	24045	38.6
+Worcester MD	24047	39.2
 Baltimore City MD	24510	33.8
 Barnstable MA	25001	45.0
 Berkshire MA	25003	42.5
@@ -1603,7 +1603,7 @@ Cass MO	29037	44.9
 Cedar MO	29039	42.3
 Chariton MO	29041	48.9
 Christian MO	29043	44.2
-Clark IA	29045	48.0
+Clark MO	29045	48.0
 Clay MO	29047	43.6
 Clinton MO	29049	45.2
 Cole MO	29051	43.9
@@ -2275,7 +2275,7 @@ Kay OK	40071	44.2
 Kingfisher OK	40073	50.5
 Kiowa OK	40075	45.7
 Latimer AR	40077	45.6
-Le Flore AR	40079	45.8
+Le Flore OK	40079	45.8
 Lincoln OK	40081	45.8
 Logan OK	40083	43.7
 Love OK	40085	47.2
@@ -2435,7 +2435,7 @@ Colleton SC	45029	36.2
 Darlington SC	45031	35.3
 Dillon SC	45033	34.6
 Dorchester SC	45035	39.3
-Edgefield GA	45037	34.9
+Edgefield SC	45037	34.9
 Fairfield SC	45039	32.7
 Florence SC	45041	36.2
 Georgetown SC	45043	35.8
@@ -2577,7 +2577,7 @@ Lewis TN	47101	42.3
 Lincoln AL	47103	43.1
 Loudon TN	47105	39.3
 McMinn TN	47107	39.4
-McNairy MS	47109	39.4
+McNairy TN	47109	39.4
 Macon TN	47111	43.2
 Madison TN	47113	35.8
 Marion TN	47115	40.5
@@ -2611,7 +2611,7 @@ Union TN	47173	38.9
 Van Buren TN	47175	
 Warren TN	47177	39.1
 Washington TN	47179	37.0
-Washington TN	47179	42.1
+Washington VA	47179	42.1
 Washington TN	51191	37.0
 Washington TN	51191	42.1
 Wayne AL	47181	45.3
@@ -2885,13 +2885,13 @@ Garfield UT	49017	51.9
 Grand UT	49019	46.1
 Iron UT	49021	46.0
 Juab UT	49023	51.0
-Kane AZ	49025	47.4
+Kane UT	49025	47.4
 Millard UT	49027	51.1
 Morgan UT	49029	52.8
 Piute UT	49031	
 Rich WY	49033	
 Salt Lake UT	49035	45.7
-San Juan CO	49037	44.7
+San Juan UT	49037	44.7
 Sanpete UT	49039	50.2
 Sevier UT	49041	49.8
 Summit UT	49043	55.6
@@ -2903,7 +2903,7 @@ Washington UT	49053	45.8
 Wayne UT	49055	
 Weber UT	49057	44.4
 Addison VT	50001	44.3
-Bennington MA	50003	42.6
+Bennington VT	50003	42.6
 Caledonia VT	50005	43.8
 Chittenden VT	50007	42.7
 Essex VT	50009	46.5
@@ -2999,7 +2999,7 @@ Roanoke VA	51161	43.7
 Rockbridge VA	51163	44.8
 Rockingham VA	51165	44.6
 Russell VA	51167	46.7
-Scott TN	51169	43.3
+Scott VA	51169	43.3
 Shenandoah VA	51171	45.1
 Smyth TN	51173	39.8
 Southampton VA	51175	38.4
