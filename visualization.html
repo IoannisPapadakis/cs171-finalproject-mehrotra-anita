@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+
+
+<body>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+<script src="http://d3js.org/queue.v1.min.js"></script>
+
+<style type="text/css">
+
+    .background path {
+      fill: none;
+      stroke:rgb(251, 239, 255);
+      stroke-opacity: .1;
+      shape-rendering: crispEdges;
+    }
+
+    .foreground path {
+      fill: none;
+      /*stroke: rgb(65, 65, 65);*/
+      stroke: rgb(103, 0, 103);
+      stroke-opacity: .1;
+      stroke-width: 2;
+    }
+
+    .counties{
+      fill: none;
+      stroke: grey;
+      stroke-width: .15;
+    }
+
+    .states {
+      fill: none;
+      stroke: #fff;
+      stroke-linejoin: round;
+      stroke-width: 1.5;
+    }
+
+    text{
+        /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+        font-family: "Century Gothic";
+        font-size: 9pt;
+    }
+
+    .axis text {
+        font-family: "Century Gothic";
+        font-size: 10px;
+    }
+
+    .station{
+        fill:lightgrey;
+        opacity: .7;
+    }
+    .station.hasData{
+        fill:blue;
+        opacity: 1;
+    }
+    .hourLine{
+        fill:none;
+        stroke:steelblue;
+
+    }
+    .brush .extent{
+        fill:gray;
+        opacity: .3;
+    }
+
+    .axis line,
+    .axis path {
+        fill: none;
+        stroke: #000;
+        shape-rendering: crispEdges;
+        stroke-width:1;
+    }
+
+    .q0-9 { fill:rgb(252, 173, 252); }
+    .q1-9 { fill:rgb(124, 250, 124); }
+    .q2-9 { fill:rgb(246, 246, 25); }
+    .q3-9 { fill:rgb(197, 255, 0); }
+    .q4-9 { fill:rgb(255, 186, 0); }
+    .q5-9 { fill:rgb(255, 125, 115); }
+    .q6-9 { fill:rgb(255, 78, 64); }
+    .q7-9 { fill:rgb(255, 19, 0); }
+    .q8-9 { fill:rgb(179, 13, 0); }
+
+    .legend {
+      font-size: 10px;
+    }
+
+    div.tooltip {   
+      position: absolute;           
+      text-align: center;           
+      width: 115px;                  
+      height: 25px;                 
+      padding: 2px;             
+      font: 10px "Century Gothic";        
+      background: white;   
+      border: 0px;      
+      border-radius: 8px;           
+      pointer-events: none;         
+    }
+
+
+</style>
+
+
+
+<table>
+    <tr><td><div id="vis"></div></td><td><div id="detailVis"></div></td></tr>
+</table>
+
+
+<script src="visualization.js"></script>
+
+</body>
+</html>
